@@ -1,15 +1,16 @@
 {
   "variables": {
-    "title": "NSS Lab Documnets",
+    "title": "NSS Lab Documents",
     "theme": "theme-gray"
   },
   "collapsible_menu": true,
   "level_number": false,
   "author": "NSS Lab",
   "language": "en",
+  "description": "NSS Lab Documents",
   "links": {
     "sidebar": {
-      "Home": "https://people.cs.clemson.edu/~hongxih/"
+      "Home": "https://github.com/nsslabcuus"
     },
     "gitbook": true
   },
@@ -19,13 +20,11 @@
   },
   "plugins": [
     "-lunr",
-    "highlight",
     "-search",
     "search-pro",
     "-sharing",
     "github-buttons",
     "editlink",
-    "disqus",
     "bibtex-indexed-cite",
     "anchor-navigation-ex",
     "page-footer-ex",
@@ -35,9 +34,6 @@
     "expandable-chapters-small"
   ],
   "pluginsConfig": {
-    "disqus": {
-      "shortName": "guozet-me"
-    },
     "theme-default": {
       "showLevel": true
     },
@@ -50,15 +46,20 @@
     },
     "github-buttons": {
       "buttons": [{
-        "user": "guozetang",
-        "repo": "leetcode",
+        "user": "nsslabcuus",
+        "repo": "dochub",
         "type": "star",
         "size": "small",
         "count": true
       }]
     },
+    "editlink": {
+      "base": "https://github.com/nsslabcuus/dochub/blob/master",
+      "label": "Edit",
+      "multilingual": false
+    },
     "page-footer-ex": {
-      "copyright": "By [NSS LAB](https://people.cs.clemson.edu/~hongxih/)",
+      "copyright": "By [NSS Lab Clemson](https://github.com/guozetang)",
       "markdown": true,
       "update_label": "Updated：",
       "update_format": "YYYY-MM-DD HH:mm:ss"
