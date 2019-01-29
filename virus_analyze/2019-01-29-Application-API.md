@@ -6,7 +6,7 @@
 
 output data structure:
 
-If this is a build-in Linux Commands.
+If this is a build-in Linux Command.
 
 ```json
 {
@@ -17,7 +17,7 @@ If this is a build-in Linux Commands.
 },
 ```
 
-If this is a network Linux Commands:
+If this is a network Linux Command.
 
 ```json
 {
@@ -42,7 +42,7 @@ Otherwise, if the `downloaded` parameter is not true, don't check the filename i
 },
 ```
 
-If this is an Unknown Commands:
+If this is an Unknown Command.
 
 ```json
 {
