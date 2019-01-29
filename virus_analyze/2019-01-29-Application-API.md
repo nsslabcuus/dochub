@@ -12,7 +12,7 @@ If this is a build-in Linux Commands.
 {
   "name":"basename",
   "text":"basename $dir",
-  "category": "Filesystem",
+  "category": "filesystem",
   "filename":""
 },
 ```
@@ -48,7 +48,7 @@ If this is an Unknown Commands:
 {
   "name":"doingsomething",
   "text":"doingsomething in the bashscript",
-  "category": "Unknown",
+  "category": "unknown",
   "filename":""
 },
 ```
