@@ -1,7 +1,6 @@
 ## Summary
 
-* [Introduce the dochub](./virus_analyze/summary/introduce-gitbook.md)
-* [All Projects](./INDEX.md)
+* [Introduce the dochub](./INDEX.md)
 
 ## Virus Analyze
 

@@ -15,7 +15,7 @@
     "gitbook": true
   },
   "structure": {
-    "readme": "./virus_analyze/summary/introduce-gitbook.md",
+    "readme": "INDEX.md",
     "summary": "SUMMARY.md"
   },
   "plugins": [
