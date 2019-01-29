@@ -1,0 +1,71 @@
+{
+  "variables": {
+    "title": "NSS Lab Documnets",
+    "theme": "theme-gray"
+  },
+  "collapsible_menu": true,
+  "level_number": false,
+  "author": "NSS Lab",
+  "language": "en",
+  "links": {
+    "sidebar": {
+      "Home": "https://people.cs.clemson.edu/~hongxih/"
+    },
+    "gitbook": true
+  },
+  "structure": {
+    "readme": "INDEX.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "-lunr",
+    "highlight",
+    "-search",
+    "search-pro",
+    "-sharing",
+    "github-buttons",
+    "editlink",
+    "disqus",
+    "bibtex-indexed-cite",
+    "anchor-navigation-ex",
+    "page-footer-ex",
+    "splitter",
+    "todo",
+    "copy-code-button",
+    "expandable-chapters-small"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "guozet-me"
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "search-pro": {
+      "cutWordLib": "nodejieba",
+      "defineWord": ["Gitbook Use"]
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false
+    },
+    "github-buttons": {
+      "buttons": [{
+        "user": "guozetang",
+        "repo": "leetcode",
+        "type": "star",
+        "size": "small",
+        "count": true
+      }]
+    },
+    "page-footer-ex": {
+      "copyright": "By [NSS LAB](https://people.cs.clemson.edu/~hongxih/)",
+      "markdown": true,
+      "update_label": "Updated：",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
+    },
+
+    "bibtex-indexed-cite": {
+      "path": "/"
+    }
+  }
+}
