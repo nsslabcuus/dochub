@@ -53,4 +53,15 @@ If this is an Unknown Command.
 },
 ```
 
+If this is an Binary file.
+
+```json
+{
+  "name":"./fysxe.xy",
+  "text":"Run BinaryFile",
+  "category": "binaryfile",
+  "filename":""
+},
+```
+
 > If this is an Unknown command, we don't do the other work now.
