@@ -93,16 +93,15 @@ The second one sorted by the count number. In addition, I have put the commands 
 | 79  | make          | 1         | build management        |
 | 80  | iptables      | 1         | network                 |
 | 81  | id            | 1         | Others                  |
-| 82  | id            | 1         | Others                  |
-| 83  | gzip          | 1         | compression             |
-| 84  | git           | 1         | build management        |
-| 85  | expr          | 1         | Others                  |
-| 86  | egrep         | 1         | regular expressions     |
-| 87  | dirname       | 1         | filesystem              |
-| 88  | curl          | 1         | network                 |
-| 89  | clear         | 1         | basic shell             |
-| 90  | chown         | 1         | file permissions        |
-| 91  | arp           | 1         | network                 |
+| 82  | gzip          | 1         | compression             |
+| 83  | git           | 1         | build management        |
+| 84  | expr          | 1         | Others                  |
+| 85  | egrep         | 1         | regular expressions     |
+| 86  | dirname       | 1         | filesystem              |
+| 87  | curl          | 1         | network                 |
+| 88  | clear         | 1         | basic shell             |
+| 89  | chown         | 1         | file permissions        |
+| 90  | arp           | 1         | network                 |
 
 
 **Reference Linking**
