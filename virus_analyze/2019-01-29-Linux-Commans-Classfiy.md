@@ -4,8 +4,8 @@ I have counted all of the commands which are the linux commands in our bash malw
 
 There are two links for the result.
 
-- [commands_linux.json](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux.json)  
-- [commands_linux_sorted.txt](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux_sorted.txt)
+- [commands_linux.json](https |  //github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux.json)  
+- [commands_linux_sorted.txt](https |  //github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux_sorted.txt)
 
 The second one sorted by the count number. In addition, I have put the commands table as followed.
 
@@ -107,4 +107,32 @@ The second one sorted by the count number. In addition, I have put the commands 
 
 **Reference Linking**
 
-* [Bash Shell Reference (manual)](https://courses.cs.washington.edu/courses/cse390a/14au/bash.html)
+* [Bash Shell Reference (manual)](https |  //courses.cs.washington.edu/courses/cse390a/14au/bash.html)
+
+----------
+
+### How many commands classification used in our project.
+
+| No. | Classification                     | Commands                                                                                                     |
+| --- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 1   | Users and Groups                   | su, whoami, sudo                                                                                             |
+| 2   | Filesystem                         | dirname, lsof, basename, lsof, mktemp                                                                        |
+| 3   | File permissions                   | chown, umask, chmod                                                                                          |
+| 4   | File Operations                    | touch, mv, cp, rm                                                                                            |
+| 5   | File examination                   | head, tail, wc, cat                                                                                          |
+| 6   | Directories                        | ls, mkdir, cd                                                                                                |
+| 7   | Compression                        | gzip, gunzip, tar                                                                                            |
+| 8   | Build management                   | git, make                                                                                                    |
+| 9   | Basic Shell                        | clear, history, exit                                                                                         |
+| 10  | Text Processing                    | tr, awk                                                                                                      |
+| 11  | Shell Programming                  | sh, cut                                                                                                      |
+| 12  | System information                 | data, uname                                                                                                  |
+| 13  | Shell scripting(Build-In Commands) | export, unset, read, set, echo                                                                               |
+| 14  | Searching and Sorting              | uniq, which, find, sort, xargs, grep                                                                         |
+| 15  | Regular expressing                 | sed, perl                                                                                                    |
+| 16  | Programming                        | perl                                                                                                         |
+| 17  | Process management                 | trap, kill, fg, pstree, nohub, ps, killall, pkill                                                            |
+| 18  | Network                            | arp, curl, iptables, nc, sshd, wget, ifconfig, ip, netstat, ping, lynx, ssh, tftp, ftp                       |
+| 19  | Multi-User-environments            | w                                                                                                            |
+| 20  | Miscellaneous                      | crontab, sleep, ulimit                                                                                       |
+| 21  | Ohters                             | expr, id, man, test, lsb_release, stat, sysctl, userdel, chattr, usermod, yum, as, declare, apt-get, service |
