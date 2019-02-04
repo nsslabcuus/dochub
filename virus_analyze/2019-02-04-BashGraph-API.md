@@ -1,19 +1,21 @@
 # BashGraph API 
 
-**get_complexity_tag**
+**get_tags**
 
-`get_complexity_tag` is an API for users to get a tag that indicates whether a bash script contains IF, FOR, or WHILE structures. Call `make_graph` before calling this function. 
+`get_tags` is an API for users to get all the tags for a bash script. This function must be called after `make_cfg` 
+The return value of this function is a dictionary. The keys of the dic are the types of tag, and the values of each record are the tags. 
 
 Input:  `None` 
 
-Output: `False` if failed. Otherwise one of the following string
+Output: `False` if failed. Otherwise returns a dictionary of set. Each key of the dic is a type of tag. Each record of the dic is a set of tags. 
+
+Dictionary definition:
 
 ```
-if
-for
-while
-if-for
-if-while
-for-while
-if-for-while
+{
+    "complexity_tag"    :   ["for", "if", "while"]      # the value is a set() class
+    "error_tag"         :   ["function", "case"]        
+}
+
 ```
+
