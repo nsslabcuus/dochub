@@ -14,7 +14,7 @@
 
 `make_graph` is an API for users to initiate many internal states of the `BashGraph` object.  `load_file` must be called before this function. 
 
-**Input:**  `None`
+**Input:**  `None` or `arg  : Boolean`. The `arg` indicates whether the made graph includes arguments of the commands in its nodes. Default is `False`.
 
 **Output:** `True` is successful and `False` if failed. 
 
