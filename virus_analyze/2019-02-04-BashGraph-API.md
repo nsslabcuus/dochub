@@ -49,8 +49,9 @@ The return value of this function is a dictionary. The keys of the dic are the t
 
 ```
 {
-    "complexity_tag"    :   ["for", "if", "while"]      # the value is a set() class
-    "error_tag"         :   ["function", "case"]        
+    "complexity_tag"    :   ["for", "if", "while"]      # the value is a set() class. has IF, FOR, WHILE 
+    "error_tag"         :   ["function", "case"]        # has FunctionNode, CaseNode       
+    "node_type"         :   ["external", "unknown"]     # has external and unknown commands
 }
 
 ```
