@@ -59,7 +59,7 @@ If this is an Binary file.
 
 ```json
 {
-  "name":"./fysxe.xy",
+  "name":"fysxe.xy",
   "text":"Run BinaryFile",
   "category": "binaryfile",
   "filename":""
