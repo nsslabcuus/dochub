@@ -34,8 +34,6 @@ sys.stdout = orig_stdout
 **Output:** `False` if failed. Otherwise `True`.
 
 
-
-
 ## get_tags
 
 `get_tags` is an API for users to get all the tags for a bash script. `make_graph` must be called before this function. 
