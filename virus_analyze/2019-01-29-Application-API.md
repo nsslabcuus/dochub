@@ -2,11 +2,11 @@
 
 **inquiryCommandInfo**
 
-`inquiryCommandInfo(command)` is an API for user to get the command information. The output is a dictionary data structure.
+`inquiryCommandInfo(command)` is an API for the user to get the command information. The output is a dictionary data structure.
 
 output data structure:
 
-If this is a build-in Linux Command.
+If this is a built-in Linux Command.
 
 ```json
 {
@@ -55,7 +55,7 @@ If this is an Unknown Command.
 
 > If this is an Unknown command, we don't do the other work now.\
 
-If this is an Binary file.
+If this is a Binary file.
 
 ```json
 {

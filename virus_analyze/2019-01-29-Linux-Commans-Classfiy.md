@@ -1,11 +1,10 @@
 ### Linux commands classfy
 
-I have counted all of the commands which are the linux commands in our bash malware scripts. There are only 92 Linux commands used in these 1784 bash scripts.
+I have counted all of the commands which are the Linux commands in our bash malware scripts. There are only 92 Linux commands used in these 1784 bash scripts.
 
-There are two links for the result.
+There are two links to the result.
 
-- [commands_linux.json](https |  //github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux.json)  
-- [commands_linux_sorted.txt](https |  //github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux_sorted.txt)
+- [commands_linux.json](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux.json)
 
 The second one sorted by the count number. In addition, I have put the commands table as followed.
 
@@ -111,7 +110,7 @@ The second one sorted by the count number. In addition, I have put the commands 
 ----------
 
 ### How many commands classification used in our project.
-
+****
 | No. | Classification                     | Commands                                                                                                     |
 | --- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | 1   | Users and Groups                   | su, whoami, sudo                                                                                             |
