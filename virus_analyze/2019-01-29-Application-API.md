@@ -65,3 +65,14 @@ If this is an Binary file.
   "filename":""
 },
 ```
+
+If this is an assignment.
+
+```json
+{
+  "name":"name",
+  "text":"x=y",
+  "category": "assignment",
+  "filename":""
+},
+```
