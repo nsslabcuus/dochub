@@ -1,3 +1,16 @@
+# Application Framework
+
+This application based on MVC design pattern.
+
+![](/images/2019-02-08-14-30-18.png)
+
+* Bash Parser: Deal with the bash script, and get the AST grammar tree from the bash script code.
+* Script Data: Analyze tool for the Bash scripts commands. (Count the Linux Commands)
+* Virustotal: Based on the MD5 value for each bash script file to get the scripts detail information from the virtual total website.
+* Graph: Generate the dot and pdf graph from the bash parser output.
+* Database: Use sqlite3 in the python3.5 to save the scripts information in the database.
+* Data Drive: Use the XML file to drive the application, then it is easy for us to change the configure in the application.
+
 # Instruction Manual
 
 **Run Application**
@@ -56,6 +69,9 @@ When you use the search function, you can choose one of them to search. The inpu
 * Show script Path: Get the script path which you choose in the table.
 * Show All commands count: Get all the commands from all scripts in this repository.
 * Show All Linux commands count: Get all Linux commands from all scripts in this repository.
+
+![](/images/2019-02-08-14-25-31.png)
+
 * Show Commands Count: Get the commands count for one Bash scripts.
 * Open Scripts code: Open the script's code by gedit application.
 * Open Scripts Graph: Generate and open the script graph by evince application.
