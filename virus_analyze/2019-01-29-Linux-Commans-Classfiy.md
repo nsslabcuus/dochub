@@ -1,107 +1,95 @@
 ### Linux commands classfy
 
-I have counted all of the commands which are the Linux commands in our bash malware scripts. There are only 92 Linux commands used in these 1784 bash scripts.
+I have counted all of the commands which are the Linux commands in our bash malware scripts. There are only 79 Linux commands used in these 1784 bash scripts.
 
 There are two links to the result.
 
 - [commands_linux.json](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux.json)
+- [Commands to each scripts file](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/command_to_file.json)
 
 The second one sorted by the count number. In addition, I have put the commands table as followed.
 
-| No. | Linux Command | Frequency | Classification          |
-| --- | ------------- | --------- |
-| 0   | cd            | 109306    | directories             |
-| 1   | chmod         | 22237     | file permissions        |
-| 2   | rm            | 15666     | file operations         |
-| 3   | cat           | 6767      | file examination        |
-| 4   | ftp           | 830       | network                 |
-| 5   | tftp          | 783       | network                 |
-| 6   | ulimit        | 515       | miscellaneous           |
-| 7   | cp            | 507       | file operations         |
-| 8   | echo          | 244       | shell scripting         |
-| 9   | grep          | 157       | searching and sorting   |
-| 10  | pkill         | 103       | process management      |
-| 11  | awk           | 69        | Text processing         |
-| 12  | sudo          | 65        | users and groups        |
-| 13  | killall       | 56        | process management      |
-| 14  | xargs         | 53        | searching and sorting   |
-| 15  | ps            | 53        | process management      |
-| 16  | sleep         | 42        | miscellaneous           |
-| 17  | exit          | 29        | basic shell             |
-| 18  | nohup         | 25        | process management      |
-| 19  | service       | 24        | Others                  |
-| 20  | ssh           | 23        | network                 |
-| 21  | mktemp        | 16        | filesystem              |
-| 22  | sed           | 15        | regular expressions     |
-| 23  | set           | 14        | shell scripting         |
-| 24  | lynx          | 13        | network                 |
-| 25  | cut           | 13        | Shell Programming       |
-| 26  | apt-get       | 13        | Others                  |
-| 27  | wc            | 12        | file examination        |
-| 28  | mkdir         | 10        | directories             |
-| 29  | tail          | 9         | file examination        |
-| 30  | declare       | 9         | Others                  |
-| 31  | basename      | 9         | filesystem              |
-| 32  | pstree        | 8         | process management      |
-| 33  | lsof          | 8         | filesystem              |
-| 34  | read          | 7         | shell scripting         |
-| 35  | fg            | 7         | process management      |
-| 36  | as            | 7         | Others                  |
-| 37  | yum           | 6         | Others                  |
-| 38  | tar           | 6         | compression             |
-| 39  | crontab       | 6         | miscellaneous           |
-| 40  | perl          | 5         | programming             |
-| 41  | usermod       | 4         | Others                  |
-| 42  | sort          | 4         | searching and sorting   |
-| 43  | mv            | 4         | file operations         |
-| 44  | head          | 4         | file examination        |
-| 45  | uname         | 3         | system information      |
-| 46  | touch         | 3         | file operations         |
-| 47  | ls            | 3         | directories             |
-| 48  | find          | 3         | searching and sorting   |
-| 49  | chattr        | 3         | Others                  |
-| 50  | which         | 2         | searching and sorting   |
-| 51  | userdel       | 2         | Others                  |
-| 52  | unset         | 2         | shell scripting         |
-| 53  | umask         | 2         | file permissions        |
-| 54  | sysctl        | 2         | Others                  |
-| 55  | stat          | 2         | Others                  |
-| 56  | ping          | 2         | network                 |
-| 57  | netstat       | 2         | network                 |
-| 58  | lsb_release   | 2         | Others                  |
-| 59  | kill          | 2         | process management      |
-| 60  | ip            | 2         | network                 |
-| 61  | ifconfig      | 2         | network                 |
-| 62  | history       | 2         | basic shell             |
-| 63  | gunzip        | 2         | compression             |
-| 64  | export        | 2         | shell scripting         |
-| 65  | date          | 2         | system information      |
-| 66  | whoami        | 1         | users and groups        |
-| 67  | whoami        | 1         | users and groups        |
-| 68  | wget          | 1         | network                 |
-| 69  | w             | 1         | multi-user environments |
-| 70  | uniq          | 1         | searching and sorting   |
-| 71  | trap          | 1         | process management      |
-| 72  | tr            | 1         | Text processing         |
-| 73  | test          | 1         | Others                  |
-| 74  | su            | 1         | users and groups        |
-| 75  | sshd          | 1         | network                 |
-| 76  | sh            | 1         | Shell programming       |
-| 77  | nc            | 1         | network                 |
-| 78  | man           | 1         | Others                  |
-| 79  | make          | 1         | build management        |
-| 80  | iptables      | 1         | network                 |
-| 81  | id            | 1         | Others                  |
-| 82  | gzip          | 1         | compression             |
-| 83  | git           | 1         | build management        |
-| 84  | expr          | 1         | Others                  |
-| 85  | egrep         | 1         | regular expressions     |
-| 86  | dirname       | 1         | filesystem              |
-| 87  | curl          | 1         | network                 |
-| 88  | clear         | 1         | basic shell             |
-| 89  | chown         | 1         | file permissions        |
-| 90  | arp           | 1         | network                 |
-
+| No. | Linux Command | Frequency | Classification | Number of Files |
+| --- | ------------- | --------- |--------- |--------- |
+1  |  cd  |  109306  |  directories  |  1715
+2  |  chmod  |  22237  |  file permissions  |  1727
+3  |  rm  |  15666  |  file operations  |  1215
+4  |  wget  |  15491  |  network  |  1214
+5  |  cat  |  6767  |  file examination  |  537
+6  |  tftp  |  6445  |  network  |  503
+7  |  curl  |  2306  |  network  |  199
+8  |  ulimit  |  515  |  miscellaneous  |  514
+9  |  cp  |  507  |  file operations  |  503
+10  |  echo  |  244  |  shell scripting  |  33
+11  |  grep  |  157  |  searching and sorting  |  19
+12  |  pkill  |  103  |  process management  |  3
+13  |  awk  |  69  |  Text processing  |  12
+14  |  sudo  |  65  |  users and groups  |  12
+15  |  killall  |  56  |  process management  |  5
+16  |  xargs  |  53  |  searching and sorting  |  8
+17  |  ps  |  53  |  process management  |  8
+18  |  sleep  |  42  |  miscellaneous  |  20
+19  |  exit  |  29  |  basic shell  |  16
+20  |  nohup  |  25  |  process management  |  10
+21  |  service  |  24  |  Others  |  22
+22  |  mktemp  |  16  |  filesystem  |  4
+23  |  sed  |  15  |  regular expressions  |  9
+24  |  set  |  14  |  shell scripting  |  2
+25  |  lynx  |  13  |  network  |  1
+26  |  cut  |  13  |  Shell Programming  |  5
+27  |  apt-get  |  13  |  Others  |  7
+28  |  wc  |  12  |  file examination  |  6
+29  |  tr  |  11  |  Text processing  |  6
+30  |  mkdir  |  10  |  directories  |  8
+31  |  tail  |  9  |  file examination  |  5
+32  |  declare  |  9  |  Others  |  1
+33  |  basename  |  9  |  filesystem  |  4
+34  |  lsof  |  8  |  filesystem  |  2
+35  |  read  |  7  |  shell scripting  |  3
+36  |  yum  |  6  |  Others  |  4
+37  |  tar  |  6  |  compression  |  6
+38  |  crontab  |  6  |  miscellaneous  |  3
+39  |  perl  |  5  |  programming  |  3
+40  |  usermod  |  4  |  Others  |  4
+41  |  sort  |  4  |  searching and sorting  |  4
+42  |  mv  |  4  |  file operations  |  2
+43  |  head  |  4  |  file examination  |  3
+44  |  whoami  |  3  |  users and groups  |  2
+45  |  uname  |  3  |  system information  |  3
+46  |  touch  |  3  |  file operations  |  2
+47  |  ls  |  3  |  directories  |  3
+48  |  find  |  3  |  searching and sorting  |  3
+49  |  chattr  |  3  |  Others  |  1
+50  |  which  |  2  |  searching and sorting  |  2
+51  |  unset  |  2  |  shell scripting  |  2
+52  |  umask  |  2  |  file permissions  |  2
+53  |  sysctl  |  2  |  Others  |  2
+54  |  stat  |  2  |  Others  |  1
+55  |  ping  |  2  |  network  |  2
+56  |  netstat  |  2  |  network  |  2
+57  |  lsb_release  |  2  |  Others  |  2
+58  |  kill  |  2  |  process management  |  2
+59  |  ip  |  2  |  network  |  2
+60  |  ifconfig  |  2  |  network  |  1
+61  |  id  |  2  |  Others  |  2
+62  |  history  |  2  |  basic shell  |  2
+63  |  gunzip  |  2  |  compression  |  2
+64  |  export  |  2  |  shell scripting  |  1
+65  |  date  |  2  |  system information  |  2
+66  |  uniq  |  1  |  searching and sorting  |  1
+67  |  trap  |  1  |  process management  |  1
+68  |  test  |  1  |  Others  |  1
+69  |  su  |  1  |  users and groups  |  1
+70  |  sh  |  1  |  Shell programming  |  1
+71  |  nc  |  1  |  network  |  1
+72  |  make  |  1  |  build management  |  1
+73  |  git  |  1  |  build management  |  1
+74  |  expr  |  1  |  Others  |  1
+75  |  egrep  |  1  |  regular expressions  |  1
+76  |  dirname  |  1  |  filesystem  |  1
+77  |  clear  |  1  |  basic shell  |  1
+78  |  chown  |  1  |  file permissions  |  1
+79  |  arp  |  1  |  network  |  1
 
 **Reference Linking**
 
@@ -112,7 +100,7 @@ The second one sorted by the count number. In addition, I have put the commands 
 ### How many commands classification used in our project.
 ****
 | No. | Classification                     | Commands                                                                                                     |
-| --- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+|-----|------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | 1   | Users and Groups                   | su, whoami, sudo                                                                                             |
 | 2   | Filesystem                         | dirname, lsof, basename, lsof, mktemp                                                                        |
 | 3   | File permissions                   | chown, umask, chmod                                                                                          |
