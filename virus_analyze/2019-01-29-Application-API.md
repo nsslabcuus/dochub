@@ -76,3 +76,14 @@ If this is an assignment.
   "filename":""
 },
 ```
+
+If this is an condition.
+
+```json
+{
+  "name":"\[ True \]",
+  "text":"\[ True \]",
+  "category": "condition",
+  "filename":""
+},
+```
