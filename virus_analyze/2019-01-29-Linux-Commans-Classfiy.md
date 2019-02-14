@@ -5,7 +5,7 @@ I have counted all of the commands which are the Linux commands in our bash malw
 There are two links to the result.
 
 - [commands_linux.json](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux.json)
-- [Commands to each scripts file](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/command_to_file.json)
+- If you want to know which files use the each command, please access the link. [commands to each scripts file](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/command_to_file.json)
 
 The second one sorted by the count number. In addition, I have put the commands table as followed.
 
