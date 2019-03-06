@@ -37,3 +37,11 @@ The `error_tag` for function node is not displayed in the application.
 The busybox command is showed like the Unkowen command. This is not correct. We need to change it to showed like `busybox rm` or other command.
 
 ## sodu
+
+## Import the json file to database
+
+We need to import the json file to database, then we can use this to do some analyze
+
+## Make the databasee can share with other people
+
+Change the path save file in the json files, then we can share the config file for each laptop.
