@@ -45,3 +45,7 @@ We need to import the json file to database, then we can use this to do some ana
 ## Make the databasee can share with other people
 
 Change the path save file in the json files, then we can share the config file for each laptop.
+
+## Urgency (How many companies think this file is a malware file.)
+
+Add the urgency field from the virustotal website.
