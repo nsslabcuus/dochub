@@ -27,3 +27,13 @@ VirusShare_81d98d94c3ff744a6087961f41b096da.dot
 VirusShare_87934e6519091f075815d90ef8b17733.dot
 VirusShare_ad7b18dadb98ddb8698fd31e34a51e10.dot
 VirusShare_c2474337dd6546c348d51083af731262.dot
+
+## Function Node
+
+The `error_tag` for function node is not displayed in the application.
+
+## Busybox
+
+The busybox command is showed like the Unkowen command. This is not correct. We need to change it to showed like `busybox rm` or other command.
+
+## sodu
