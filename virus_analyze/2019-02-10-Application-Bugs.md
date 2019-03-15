@@ -32,20 +32,23 @@ VirusShare_c2474337dd6546c348d51083af731262.dot
 
 The `error_tag` for function node is not displayed in the application.
 
+> Check it, the graph part not return the functionnodo property information.
+> Don't print the information for the functionNode and Casenode. Change it in the graph module.
+
 ## Busybox
 
 The busybox command is showed like the Unkowen command. This is not correct. We need to change it to showed like `busybox rm` or other command.
 
 ## sodu
 
-## Import the json file to database
-
-We need to import the json file to database, then we can use this to do some analyze
-
-## Make the databasee can share with other people
-
-Change the path save file in the json files, then we can share the config file for each laptop.
-
 ## Urgency (How many companies think this file is a malware file.)
 
 Add the urgency field from the virustotal website.
+
+---------
+
+# Finished
+
+- [x] Import the json file to database. We need to import the json file to database, then we can use this to do some analyze
+- [x] Make the database can share with other people. Change the path save file in the json files, then we can share the config file for each laptop.
+- [x] Add the normal dataset and malware dataset in the application. 
