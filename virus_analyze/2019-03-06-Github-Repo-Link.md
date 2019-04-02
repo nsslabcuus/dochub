@@ -22,6 +22,12 @@ git clone -b normal-dataset git@github.com:guozetang/IoT-Malware-Dataset-App.git
 git clone -b systemcall git@github.com:guozetang/IoT-Malware-Dataset-App.git systemcall
 ```
 
+**Evaluation Dataset**
+
+```bash
+git clone -b evaluation git@github.com:guozetang/IoT-Malware-Dataset-App.git evaluation
+```
+
 ## Application Repo
 
 **Application Repo**
