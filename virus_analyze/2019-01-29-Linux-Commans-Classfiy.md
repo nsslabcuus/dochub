@@ -136,27 +136,27 @@ No. | Linux Command | Frequency | Classification          | Number of Files
 
 ### How many commands classification used in our project.
 
-| No. | Classification                     | Commands                                                                                                     |
-|-----|------------------------------------|--------------------------------------------------------------------------------------------------------------|
-1  |  process management | killall, pkill, ps, nohup, kill, trap
-2  |  compression | tar, gzip, gunzip
-3  |  Text processing | awk, tr
-4  |  file examination | cat, head, wc, tail, du
-5  |  miscellaneous | ulimit, sleep, crontab
-6  |  basic shell | exit, history, clear, unalias
-7  |  directories | cd, mkdir, pwd, ls
-8  |  Shell programming | sh
-9  |  system information | date, uname
-10  |  programming | perl, php
-11  |  shell scripting | echo, unset, printf, read, export, set, let
-12  |  regular expressions | sed, egrep
-13  |  file operations | rm, cp, mv, touch
-14  |  users and groups | sudo, whoami, su, passwd
-15  |  network | wget, tftp, curl, netstat, mail, lynx, ping, ifconfig, iptables, ftp, arp, nc
-16  |  searching and sorting | grep, xargs, find, sort, which, uniq
-17  |  Shell Programming | cut
-18  |  Others | chattr, expr, lp, test, ln, declare, service, md5sum, pidof, apt-get, id, stat, gcc, usermod, nice, command sysctl, strings, fold, dig, yum, useradd, chkconfig, cdrecord, who, uptime, readonly, nmap, lspci, lastlog, ipcalc, file
-19  |  multi-user environments | hostname, wall
-20  |  build management | make, git
-21  |  file permissions | chmod, chown, umask, chgrp
-22  |  filesystem | mktemp, lsof, basename, dirname
+No. | Classification          | Commands
+----|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1   | process management      | killall, pkill, ps, nohup, kill, trap
+2   | compression             | tar, gzip, gunzip
+3   | Text processing         | awk, tr
+4   | file examination        | cat, head, wc, tail, du
+5   | miscellaneous           | ulimit, sleep, crontab
+6   | basic shell             | exit, history, clear, unalias
+7   | directories             | cd, mkdir, pwd, ls
+8   | Shell programming       | sh
+9   | system information      | date, uname
+10  | programming             | perl, php
+11  | shell scripting         | echo, unset, printf, read, export, set, let
+12  | regular expressions     | sed, egrep
+13  | file operations         | rm, cp, mv, touch
+14  | users and groups        | sudo, whoami, su, passwd
+15  | network                 | wget, tftp, curl, netstat, mail, lynx, ping, ifconfig, iptables, ftp, arp, nc
+16  | searching and sorting   | grep, xargs, find, sort, which, uniq
+17  | Shell Programming       | cut
+18  | Others                  | chattr, expr, lp, test, ln, declare, service, md5sum, pidof, apt-get, id, stat, gcc, usermod, nice, command sysctl, strings, fold, dig, yum, useradd, chkconfig, cdrecord, who, uptime, readonly, nmap, lspci, lastlog, ipcalc, file
+19  | multi-user environments | hostname, wall
+20  | build management        | make, git
+21  | file permissions        | chmod, chown, umask, chgrp
+22  | filesystem              | mktemp, lsof, basename, dirname
