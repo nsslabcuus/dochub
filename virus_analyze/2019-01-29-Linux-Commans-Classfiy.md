@@ -4,7 +4,7 @@
 
 * 04/12/2019 Update the table and the linux command to each scripts link.
 
-I have counted all of the commands which are the Linux commands in our bash malware scripts. There are only 79 Linux commands used in these 1784 bash scripts.
+I have counted all of the commands which are the Linux commands in our bash malware scripts. There are only 112 Linux commands used in these 1784 bash scripts.
 
 There are two links to the result.
 
