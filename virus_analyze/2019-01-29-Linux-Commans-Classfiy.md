@@ -138,24 +138,25 @@ No. | Linux Command | Frequency | Classification          | Number of Files
 
 | No. | Classification                     | Commands                                                                                                     |
 |-----|------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| 1   | Users and Groups                   | su, whoami, sudo                                                                                             |
-| 2   | Filesystem                         | dirname, lsof, basename, lsof, mktemp                                                                        |
-| 3   | File permissions                   | chown, umask, chmod                                                                                          |
-| 4   | File Operations                    | touch, mv, cp, rm                                                                                            |
-| 5   | File examination                   | head, tail, wc, cat                                                                                          |
-| 6   | Directories                        | ls, mkdir, cd                                                                                                |
-| 7   | Compression                        | gzip, gunzip, tar                                                                                            |
-| 8   | Build management                   | git, make                                                                                                    |
-| 9   | Basic Shell                        | clear, history, exit                                                                                         |
-| 10  | Text Processing                    | tr, awk                                                                                                      |
-| 11  | Shell Programming                  | sh, cut                                                                                                      |
-| 12  | System information                 | data, uname                                                                                                  |
-| 13  | Shell scripting(Build-In Commands) | export, unset, read, set, echo                                                                               |
-| 14  | Searching and Sorting              | uniq, which, find, sort, xargs, grep                                                                         |
-| 15  | Regular expressing                 | sed, perl                                                                                                    |
-| 16  | Programming                        | perl                                                                                                         |
-| 17  | Process management                 | trap, kill, fg, pstree, nohub, ps, killall, pkill                                                            |
-| 18  | Network                            | arp, curl, iptables, nc, sshd, wget, ifconfig, ip, netstat, ping, lynx, ssh, tftp, ftp                       |
-| 19  | Multi-User-environments            | w                                                                                                            |
-| 20  | Miscellaneous                      | crontab, sleep, ulimit                                                                                       |
-| 21  | Ohters                             | expr, id, man, test, lsb_release, stat, sysctl, userdel, chattr, usermod, yum, as, declare, apt-get, service |
+1  |  process management | killall, pkill, ps, nohup, kill, trap, 
+2  |  compression | tar, gzip, gunzip, 
+3  |  Text processing | awk, tr, 
+4  |  file examination | cat, head, wc, tail, du, 
+5  |  miscellaneous | ulimit, sleep, crontab, 
+6  |  basic shell | exit, history, clear, unalias, 
+7  |  directories | cd, mkdir, pwd, ls, 
+8  |  Shell programming | sh, 
+9  |  system information | date, uname, 
+10  |  programming | perl, php, 
+11  |  shell scripting | echo, unset, printf, read, export, set, let, 
+12  |  regular expressions | sed, egrep, 
+13  |  file operations | rm, cp, mv, touch, 
+14  |  users and groups | sudo, whoami, su, passwd, 
+15  |  network | wget, tftp, curl, netstat, mail, lynx, ping, ifconfig, iptables, ftp, arp, nc, 
+16  |  searching and sorting | grep, xargs, find, sort, which, uniq, 
+17  |  Shell Programming | cut, 
+18  |  Others | chattr, expr, lp, test, ln, declare, service, md5sum, pidof, apt-get, id, stat, gcc, usermod, nice, command, sysctl, strings, fold, dig, yum, useradd, chkconfig, cdrecord, who, uptime, readonly, nmap, lspci, lastlog, ipcalc, file, 
+19  |  multi-user environments | hostname, wall, 
+20  |  build management | make, git, 
+21  |  file permissions | chmod, chown, umask, chgrp, 
+22  |  filesystem | mktemp, lsof, basename, dirname, 
