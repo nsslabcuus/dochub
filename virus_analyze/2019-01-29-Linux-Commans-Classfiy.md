@@ -11,7 +11,9 @@ There are two links to the result.
 - [commands_linux.json](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/commands_linux.json)
 - If you want to know which files use the each command, please access the link. [commands to each scripts file](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/command_to_file.json)
 
-The second one sorted by the count number. In addition, I have put the commands table as followed.
+The second one sorted by the count number. In addition, I have put the commands table as followed. 
+
+> Note: This table is not include all the linux commands. Only cover the basic 570 Linux commands in our data set.
 
 No. | Linux Command | Frequency | Classification          | Number of Files
 ----|---------------|-----------|-------------------------|----------------
@@ -134,7 +136,9 @@ No. | Linux Command | Frequency | Classification          | Number of Files
 
 ----------
 
-### How many commands classification used in our project.
+### How many commands classification used in our project
+
+> Note: This table is not include all the linux commands. Only cover the basic 570 Linux commands in our data set.
 
 No. | Classification          | Commands
 ----|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
