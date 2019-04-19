@@ -1,4 +1,4 @@
-### Linux commands classfy
+### Linux commands classify
 
 **updated date**
 
