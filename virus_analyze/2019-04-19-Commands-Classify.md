@@ -2,293 +2,317 @@
 
 No. | Linux Command                             | Frequency | Classification          | Number of Files
 ----|-------------------------------------------|-----------|-------------------------|----------------
-1   | cd                                        | 164637    | directories             | 2639
-2   | chmod                                     | 33700     | file permissions        | 2657
-3   | wget                                      | 24326     | network                 | 1917
-4   | rm                                        | 24181     | file operations         | 1883
-5   | cat                                       | 10456     | file examination        | 878
-6   | tftp                                      | 8726      | network                 | 681
-7   | curl                                      | 4386      | network                 | 387
-8   | echo                                      | 3530      | shell scripting         | 118
-9   | cp                                        | 1053      | file operations         | 725
-10  | chattr                                    | 994       | Others                  | 21
-11  | ulimit                                    | 701       | miscellaneous           | 700
-12  | busybox                                   | 675       | Others                  | 26
-13  | grep                                      | 661       | searching and sorting   | 72
-14  | mv                                        | 636       | file operations         | 33
-15  | touch                                     | 445       | file operations         | 31
-16  | killall                                   | 376       | process management      | 35
-17  | ftpget                                    | 250       | Others                  | 22
-18  | pkill                                     | 220       | process management      | 8
-19  | awk                                       | 185       | Text processing         | 39
-20  | mkdir                                     | 167       | directories             | 52
-21  | sleep                                     | 128       | miscellaneous           | 61
-22  | expr                                      | 124       | Others                  | 21
-23  | tar                                       | 113       | compression             | 28
-24  | pingtest                                  | 108       | Others                  | 1
-25  | lp                                        | 107       | Others                  | 1
-26  | ps                                        | 105       | process management      | 23
-27  | exit                                      | 100       | basic shell             | 65
-28  | head                                      | 99        | file examination        | 26
-29  | xargs                                     | 94        | searching and sorting   | 8
-30  | cut                                       | 93        | Shell Programming       | 32
-31  | date                                      | 82        | system information      | 28
-32  | sudo                                      | 73        | users and groups        | 11
-33  | hostname                                  | 65        | multi-user environments | 23
-34  | test                                      | 60        | Others                  | 25
-35  | sed                                       | 60        | regular expressions     | 12
-36  | unset                                     | 58        | shell scripting         | 14
-37  | printf                                    | 52        | shell scripting         | 2
-38  | nohup                                     | 50        | process management      | 16
-39  | history                                   | 49        | basic shell             | 8
-40  | read                                      | 45        | shell scripting         | 17
-41  | wc                                        | 44        | file examination        | 28
-42  | ln                                        | 42        | Others                  | 27
-43  | uname                                     | 38        | system information      | 26
-44  | niutil                                    | 36        | Others                  | 6
-45  | whoami                                    | 35        | users and groups        | 28
-46  | find                                      | 35        | searching and sorting   | 5
-47  | pwd                                       | 32        | directories             | 29
-48  | declare                                   | 32        | Others                  | 4
-49  | chown                                     | 28        | file permissions        | 15
-50  | kill                                      | 26        | process management      | 15
-51  | sort                                      | 25        | searching and sorting   | 13
-52  | netstat                                   | 25        | network                 | 14
-53  | service                                   | 24        | Others                  | 24
-54  | mktemp                                    | 24        | filesystem              | 7
-55  | md5sum                                    | 23        | Others                  | 10
-56  | local                                     | 22        | Others                  | 5
-57  | export                                    | 21        | shell scripting         | 14
-58  | tp                                        | 20        | Others                  | 2
-59  | pidof                                     | 20        | Others                  | 10
-60  | perl                                      | 20        | programming             | 10
-61  | tail                                      | 19        | file examination        | 7
-62  | mail                                      | 19        | network                 | 16
-63  | unlock                                    | 18        | Others                  | 1
-64  | ls                                        | 18        | directories             | 10
-65  | oudsbvodbvodbvsdbvoubdovbdbvdbvpbdsvpdsvb | 16        | Others                  | 4
-66  | lsof                                      | 16        | filesystem              | 4
-67  | return                                    | 15        | Others                  | 3
-68  | crontab                                   | 15        | miscellaneous           | 6
-69  | basename                                  | 15        | filesystem              | 8
-70  | sshpass                                   | 14        | Others                  | 6
-71  | errx                                      | 14        | Others                  | 1
-72  | lynx                                      | 13        | network                 | 1
-73  | fetch                                     | 13        | Others                  | 1
-74  | apt-get                                   | 13        | Others                  | 7
-75  | GET                                       | 13        | Others                  | 1
-76  | nireport                                  | 12        | Others                  | 3
-77  | id                                        | 12        | Others                  | 12
-78  | clear                                     | 11        | basic shell             | 8
-79  | tr                                        | 10        | Text processing         | 4
-80  | XXXXXXXX                                  | 10        | Others                  | 6
-81  | which                                     | 9         | searching and sorting   | 5
-82  | uniq                                      | 9         | searching and sorting   | 9
-83  | osascript                                 | 9         | Others                  | 3
-84  | gzip                                      | 9         | compression             | 5
-85  | stat                                      | 8         | Others                  | 4
-86  | gcc                                       | 8         | Others                  | 5
-87  | dobin                                     | 8         | Others                  | 1
-88  | cc                                        | 8         | Others                  | 4
-89  | ping                                      | 7         | network                 | 3
-90  | zmap                                      | 6         | Others                  | 6
-91  | usermod                                   | 6         | Others                  | 6
-92  | sh                                        | 6         | Shell programming       | 3
-93  | realpath                                  | 6         | Others                  | 6
-94  | nidump                                    | 6         | Others                  | 3
-95  | nice                                      | 6         | Others                  | 3
-96  | md                                        | 6         | Others                  | 1
-97  | ifconfig                                  | 6         | network                 | 3
-98  | hdiutil                                   | 6         | Others                  | 3
-99  | dscl                                      | 6         | Others                  | 3
-100 | dirname                                   | 6         | filesystem              | 5
-101 | chflags                                   | 6         | Others                  | 3
-102 | break                                     | 6         | Others                  | 4
-103 | udpflood                                  | 5         | Others                  | 1
-104 | udpdata                                   | 5         | Others                  | 1
-105 | twinge                                    | 5         | Others                  | 1
-106 | true                                      | 5         | Others                  | 4
-107 | trash                                     | 5         | Others                  | 1
-108 | ton                                       | 5         | Others                  | 1
-109 | targa                                     | 5         | Others                  | 1
-110 | stuffit                                   | 5         | Others                  | 1
-111 | sexy                                      | 5         | Others                  | 1
-112 | pong                                      | 5         | Others                  | 1
-113 | pepsi                                     | 5         | Others                  | 1
-114 | overdrop                                  | 5         | Others                  | 1
-115 | opentear                                  | 5         | Others                  | 1
-116 | laser                                     | 5         | Others                  | 1
-117 | gin                                       | 5         | Others                  | 1
-118 | echok                                     | 5         | Others                  | 1
-119 | coke                                      | 5         | Others                  | 1
-120 | ADMdnsfuckr                               | 5         | Others                  | 1
-121 | usage                                     | 4         | Others                  | 2
-122 | teardrop                                  | 4         | Others                  | 1
-123 | synk                                      | 4         | Others                  | 1
-124 | synhose                                   | 4         | Others                  | 1
-125 | synful                                    | 4         | Others                  | 1
-126 | syndrop                                   | 4         | Others                  | 1
-127 | sw_vers                                   | 4         | Others                  | 4
-128 | stream                                    | 4         | Others                  | 1
-129 | stealth                                   | 4         | Others                  | 1
-130 | sprite                                    | 4         | Others                  | 1
-131 | spiffit                                   | 4         | Others                  | 1
-132 | spender                                   | 4         | Others                  | 1
-133 | smack                                     | 4         | Others                  | 1
-134 | set                                       | 4         | shell scripting         | 2
-135 | rwhokill                                  | 4         | Others                  | 1
-136 | ruc                                       | 4         | Others                  | 1
-137 | rpk                                       | 4         | Others                  | 1
-138 | raped                                     | 4         | Others                  | 1
-139 | orgasm                                    | 4         | Others                  | 1
-140 | octopus                                   | 4         | Others                  | 1
-141 | nproc                                     | 4         | Others                  | 4
-142 | newtear                                   | 4         | Others                  | 1
-143 | mutilate                                  | 4         | Others                  | 1
-144 | iptables                                  | 4         | network                 | 1
-145 | hestra                                    | 4         | Others                  | 1
-146 | hell                                      | 4         | Others                  | 1
-147 | gunzip                                    | 4         | compression             | 4
-148 | galt_gin                                  | 4         | Others                  | 1
-149 | flatline                                  | 4         | Others                  | 1
-150 | duy                                       | 4         | Others                  | 1
-151 | downloadyam                               | 4         | Others                  | 4
-152 | conseal                                   | 4         | Others                  | 1
-153 | command                                   | 4         | Others                  | 1
-154 | cocksuck                                  | 4         | Others                  | 1
-155 | bncex                                     | 4         | Others                  | 1
-156 | biffit                                    | 4         | Others                  | 1
-157 | beer                                      | 4         | Others                  | 1
-158 | winnuke                                   | 3         | Others                  | 1
-159 | winfreez                                  | 3         | Others                  | 1
-160 | trap                                      | 3         | process management      | 3
-161 | sysctl                                    | 3         | Others                  | 3
-162 | su                                        | 3         | users and groups        | 3
-163 | strings                                   | 3         | Others                  | 3
-164 | ssping                                    | 3         | Others                  | 1
-165 | request_password                          | 3         | Others                  | 3
-166 | python                                    | 3         | Others                  | 1
-167 | pirchslap                                 | 3         | Others                  | 1
-168 | pimp                                      | 3         | Others                  | 1
-169 | oshare                                    | 3         | Others                  | 1
-170 | onetwothreefour                           | 3         | Others                  | 1
-171 | nvram                                     | 3         | Others                  | 3
-172 | ntdns                                     | 3         | Others                  | 1
-173 | nicl                                      | 3         | Others                  | 3
-174 | nfo                                       | 3         | Others                  | 3
-175 | nestea                                    | 3         | Others                  | 1
-176 | let                                       | 3         | shell scripting         | 3
-177 | latierra                                  | 3         | Others                  | 1
-178 | land                                      | 3         | Others                  | 1
-179 | kox                                       | 3         | Others                  | 1
-180 | killwin                                   | 3         | Others                  | 1
-181 | killinetd                                 | 3         | Others                  | 1
-182 | jot                                       | 3         | Others                  | 3
-183 | jolt                                      | 3         | Others                  | 1
-184 | jaypee                                    | 3         | Others                  | 1
-185 | ircdkill                                  | 3         | Others                  | 1
-186 | gewse                                     | 3         | Others                  | 1
-187 | getopts                                   | 3         | Others                  | 3
-188 | getconf                                   | 3         | Others                  | 3
-189 | ftp                                       | 3         | network                 | 3
-190 | foqerc                                    | 3         | Others                  | 1
-191 | fold                                      | 3         | Others                  | 3
-192 | flushot                                   | 3         | Others                  | 1
-193 | dropcheck                                 | 3         | Others                  | 2
-194 | download                                  | 3         | Others                  | 1
-195 | doslinux                                  | 3         | Others                  | 1
-196 | dosfrontpage                              | 3         | Others                  | 1
-197 | disktool                                  | 3         | Others                  | 3
-198 | dig                                       | 3         | Others                  | 3
-199 | defaults                                  | 3         | Others                  | 3
-200 | bonk                                      | 3         | Others                  | 1
-201 | bloop                                     | 3         | Others                  | 1
-202 | ascendfoo                                 | 3         | Others                  | 1
-203 | arp                                       | 3         | network                 | 3
-204 | accton                                    | 3         | Others                  | 3
-205 | yum                                       | 2         | Others                  | 2
-206 | wingatecrash                              | 2         | Others                  | 1
-207 | useradd                                   | 2         | Others                  | 1
-208 | unalias                                   | 2         | basic shell             | 2
-209 | umask                                     | 2         | file permissions        | 2
-210 | tesoiis                                   | 2         | Others                  | 1
-211 | softwareupdate                            | 2         | Others                  | 2
-212 | simping                                   | 2         | Others                  | 1
-213 | rcon                                      | 2         | Others                  | 1
-214 | rape                                      | 2         | Others                  | 1
-215 | php                                       | 2         | programming             | 2
-216 | passwd                                    | 2         | users and groups        | 1
-217 | nc                                        | 2         | network                 | 2
-218 | mmsudos                                   | 2         | Others                  | 1
-219 | misfrag                                   | 2         | Others                  | 1
-220 | mailer                                    | 2         | Others                  | 1
-221 | linuxicmp                                 | 2         | Others                  | 1
-222 | kod                                       | 2         | Others                  | 1
-223 | koc                                       | 2         | Others                  | 1
-224 | inetddos                                  | 2         | Others                  | 1
-225 | hanson                                    | 2         | Others                  | 1
-226 | fawx                                      | 2         | Others                  | 1
-227 | du                                        | 2         | file examination        | 1
-228 | downloadIfNeed                            | 2         | Others                  | 1
-229 | dosprox                                   | 2         | Others                  | 1
-230 | comatose                                  | 2         | Others                  | 1
-231 | chkconfig                                 | 2         | Others                  | 1
-232 | cdrecord                                  | 2         | Others                  | 2
-233 | ca                                        | 2         | Others                  | 2
-234 | boink                                     | 2         | Others                  | 1
-235 | WinAttack                                 | 2         | Others                  | 1
-236 | NoPorts                                   | 2         | Others                  | 1
-237 | LinuxAttack                               | 2         | Others                  | 1
-238 | FullAttack                                | 2         | Others                  | 1
-239 | BSDAttack                                 | 2         | Others                  | 1
-240 | wtmp                                      | 1         | Others                  | 1
-241 | who                                       | 1         | Others                  | 1
-242 | wall                                      | 1         | multi-user environments | 1
-243 | utmp                                      | 1         | Others                  | 1
-244 | uptime                                    | 1         | Others                  | 1
-245 | system_profiler                           | 1         | Others                  | 1
-246 | synfulnone                                | 1         | Others                  | 1
-247 | syndropnone                               | 1         | Others                  | 1
-248 | srcipgen                                  | 1         | Others                  | 1
-249 | socklist                                  | 1         | Others                  | 1
-250 | scanner                                   | 1         | Others                  | 1
-251 | run_proc                                  | 1         | Others                  | 1
-252 | readonly                                  | 1         | Others                  | 1
-253 | readlink                                  | 1         | Others                  | 1
-254 | portchg                                   | 1         | Others                  | 1
-255 | optionlist                                | 1         | Others                  | 1
-256 | open                                      | 1         | Others                  | 1
-257 | nmapcheck                                 | 1         | Others                  | 1
-258 | nmap                                      | 1         | Others                  | 1
-259 | mkfifo                                    | 1         | Others                  | 1
-260 | make                                      | 1         | build management        | 1
-261 | main                                      | 1         | Others                  | 1
-262 | lspci                                     | 1         | Others                  | 1
-263 | locktcp                                   | 1         | Others                  | 1
-264 | lastlog                                   | 1         | Others                  | 1
-265 | kkill                                     | 1         | Others                  | 1
-266 | kdialog                                   | 1         | Others                  | 1
-267 | judge                                     | 1         | Others                  | 1
-268 | ipcalc                                    | 1         | Others                  | 1
-269 | imagemount                                | 1         | Others                  | 1
-270 | httpd                                     | 1         | Others                  | 1
-271 | header                                    | 1         | Others                  | 1
-272 | git                                       | 1         | build management        | 1
-273 | file                                      | 1         | Others                  | 1
-274 | egrep                                     | 1         | regular expressions     | 1
-275 | dickdripchk                               | 1         | Others                  | 1
-276 | create_module                             | 1         | Others                  | 1
-277 | continue                                  | 1         | Others                  | 1
-278 | cleaner                                   | 1         | Others                  | 1
-279 | chgrp                                     | 1         | file permissions        | 1
-280 | check_proc                                | 1         | Others                  | 1
-281 | busyboxchmod                              | 1         | Others                  | 1
-282 | binds                                     | 1         | Others                  | 1
-283 | bash                                      | 1         | Others                  | 1
-284 | \xef\xbb\xbf#!/bin/bash                   | 1         | Others                  | 1
-285 | Set                                       | 1         | Others                  | 1
-286 | DONTSTOPPER                               | 1         | Others                  | 1
-287 | AppleFileServer                           | 1         | Others                  | 1
+1  |  cd  |  178691  |  directories  |  2884
+2  |  chmod  |  37389  |  file permissions  |  3024
+3  |  wget  |  27037  |  network  |  2191
+4  |  rm  |  26805  |  file operations  |  2146
+5  |  cat  |  11723  |  file examination  |  989
+6  |  tftp  |  9943  |  network  |  777
+7  |  curl  |  4657  |  network  |  416
+8  |  echo  |  4447  |  shell scripting  |  169
+9  |  cp  |  1244  |  file operations  |  827
+10  |  busybox  |  1011  |  Others  |  49
+11  |  chattr  |  994  |  Others  |  21
+12  |  ulimit  |  797  |  miscellaneous  |  796
+13  |  grep  |  717  |  searching and sorting  |  87
+14  |  mv  |  652  |  file operations  |  43
+15  |  touch  |  445  |  file operations  |  31
+16  |  killall  |  412  |  process management  |  44
+17  |  sleep  |  330  |  miscellaneous  |  120
+18  |  ftpget  |  320  |  Others  |  26
+19  |  pkill  |  229  |  process management  |  11
+20  |  awk  |  221  |  Text processing  |  44
+21  |  mkdir  |  185  |  directories  |  65
+22  |  exit  |  142  |  basic shell  |  102
+23  |  printf  |  133  |  shell scripting  |  7
+24  |  tar  |  130  |  compression  |  40
+25  |  sed  |  126  |  regular expressions  |  20
+26  |  expr  |  124  |  Others  |  21
+27  |  pingtest  |  108  |  Others  |  1
+28  |  lp  |  107  |  Others  |  1
+29  |  ps  |  106  |  process management  |  24
+30  |  head  |  100  |  file examination  |  27
+31  |  xargs  |  94  |  searching and sorting  |  8
+32  |  read  |  94  |  shell scripting  |  27
+33  |  cut  |  93  |  Shell Programming  |  32
+34  |  service  |  88  |  Others  |  33
+35  |  date  |  82  |  system information  |  28
+36  |  sudo  |  81  |  users and groups  |  13
+37  |  iptables  |  75  |  network  |  4
+38  |  history  |  67  |  basic shell  |  14
+39  |  hostname  |  65  |  multi-user environments  |  23
+40  |  test  |  64  |  Others  |  29
+41  |  nohup  |  64  |  process management  |  21
+42  |  apt-get  |  62  |  Others  |  12
+43  |  unset  |  58  |  shell scripting  |  14
+44  |  tee  |  49  |  Others  |  1
+45  |  clear  |  49  |  basic shell  |  22
+46  |  ln  |  46  |  Others  |  31
+47  |  wc  |  45  |  file examination  |  29
+48  |  perl  |  40  |  programming  |  20
+49  |  uname  |  39  |  system information  |  27
+50  |  whoami  |  36  |  users and groups  |  29
+51  |  niutil  |  36  |  Others  |  6
+52  |  find  |  35  |  searching and sorting  |  5
+53  |  chown  |  33  |  file permissions  |  19
+54  |  pwd  |  32  |  directories  |  29
+55  |  declare  |  32  |  Others  |  4
+56  |  sort  |  29  |  searching and sorting  |  17
+57  |  sh  |  29  |  Shell programming  |  16
+58  |  netstat  |  29  |  network  |  16
+59  |  kill  |  28  |  process management  |  16
+60  |  tail  |  25  |  file examination  |  9
+61  |  mktemp  |  24  |  filesystem  |  7
+62  |  md5sum  |  23  |  Others  |  10
+63  |  local  |  22  |  Others  |  5
+64  |  export  |  21  |  shell scripting  |  14
+65  |  tp  |  20  |  Others  |  2
+66  |  pidof  |  20  |  Others  |  10
+67  |  oudsbvodbvodbvsdbvoubdovbdbvdbvpbdsvpdsvb  |  20  |  Others  |  5
+68  |  mail  |  19  |  network  |  16
+69  |  id  |  19  |  Others  |  15
+70  |  fetch  |  19  |  Others  |  4
+71  |  unlock  |  18  |  Others  |  1
+72  |  ls  |  18  |  directories  |  10
+73  |  lsof  |  16  |  filesystem  |  4
+74  |  crontab  |  16  |  miscellaneous  |  7
+75  |  return  |  15  |  Others  |  3
+76  |  basename  |  15  |  filesystem  |  8
+77  |  sshpass  |  14  |  Others  |  6
+78  |  fuser  |  14  |  Others  |  4
+79  |  errx  |  14  |  Others  |  1
+80  |  lynx  |  13  |  network  |  1
+81  |  GET  |  13  |  Others  |  1
+82  |  uniq  |  12  |  searching and sorting  |  12
+83  |  nireport  |  12  |  Others  |  3
+84  |  free  |  12  |  Others  |  2
+85  |  tr  |  11  |  Text processing  |  5
+86  |  XXXXXXXX  |  10  |  Others  |  6
+87  |  which  |  9  |  searching and sorting  |  5
+88  |  osascript  |  9  |  Others  |  3
+89  |  ifconfig  |  9  |  network  |  6
+90  |  gzip  |  9  |  compression  |  5
+91  |  stat  |  8  |  Others  |  4
+92  |  gcc  |  8  |  Others  |  5
+93  |  dobin  |  8  |  Others  |  1
+94  |  cc  |  8  |  Others  |  4
+95  |  yum  |  7  |  Others  |  3
+96  |  python  |  7  |  Others  |  5
+97  |  ping  |  7  |  network  |  3
+98  |  let  |  7  |  shell scripting  |  5
+99  |  git  |  7  |  build management  |  5
+100  |  zmap  |  6  |  Others  |  6
+101  |  usermod  |  6  |  Others  |  6
+102  |  realpath  |  6  |  Others  |  6
+103  |  nidump  |  6  |  Others  |  3
+104  |  nice  |  6  |  Others  |  3
+105  |  md  |  6  |  Others  |  1
+106  |  hdiutil  |  6  |  Others  |  3
+107  |  dscl  |  6  |  Others  |  3
+108  |  dirname  |  6  |  filesystem  |  5
+109  |  chflags  |  6  |  Others  |  3
+110  |  break  |  6  |  Others  |  4
+111  |  useradd  |  5  |  Others  |  4
+112  |  udpflood  |  5  |  Others  |  1
+113  |  udpdata  |  5  |  Others  |  1
+114  |  twinge  |  5  |  Others  |  1
+115  |  true  |  5  |  Others  |  4
+116  |  trash  |  5  |  Others  |  1
+117  |  ton  |  5  |  Others  |  1
+118  |  targa  |  5  |  Others  |  1
+119  |  sysctl  |  5  |  Others  |  5
+120  |  stuffit  |  5  |  Others  |  1
+121  |  sexy  |  5  |  Others  |  1
+122  |  pong  |  5  |  Others  |  1
+123  |  pepsi  |  5  |  Others  |  1
+124  |  overdrop  |  5  |  Others  |  1
+125  |  opentear  |  5  |  Others  |  1
+126  |  laser  |  5  |  Others  |  1
+127  |  header  |  5  |  Others  |  2
+128  |  gin  |  5  |  Others  |  1
+129  |  exec  |  5  |  Others  |  4
+130  |  echok  |  5  |  Others  |  1
+131  |  coke  |  5  |  Others  |  1
+132  |  apt-key  |  5  |  Others  |  3
+133  |  ADMdnsfuckr  |  5  |  Others  |  1
+134  |  usage  |  4  |  Others  |  2
+135  |  unzip  |  4  |  compression  |  3
+136  |  trap  |  4  |  process management  |  4
+137  |  teardrop  |  4  |  Others  |  1
+138  |  synk  |  4  |  Others  |  1
+139  |  synhose  |  4  |  Others  |  1
+140  |  synful  |  4  |  Others  |  1
+141  |  syndrop  |  4  |  Others  |  1
+142  |  sw_vers  |  4  |  Others  |  4
+143  |  stream  |  4  |  Others  |  1
+144  |  stealth  |  4  |  Others  |  1
+145  |  sprite  |  4  |  Others  |  1
+146  |  spiffit  |  4  |  Others  |  1
+147  |  spender  |  4  |  Others  |  1
+148  |  smack  |  4  |  Others  |  1
+149  |  set  |  4  |  shell scripting  |  2
+150  |  rwhokill  |  4  |  Others  |  1
+151  |  ruc  |  4  |  Others  |  1
+152  |  rpk  |  4  |  Others  |  1
+153  |  raped  |  4  |  Others  |  1
+154  |  orgasm  |  4  |  Others  |  1
+155  |  octopus  |  4  |  Others  |  1
+156  |  nproc  |  4  |  Others  |  4
+157  |  newtear  |  4  |  Others  |  1
+158  |  mutilate  |  4  |  Others  |  1
+159  |  kills  |  4  |  Others  |  4
+160  |  hestra  |  4  |  Others  |  1
+161  |  hell  |  4  |  Others  |  1
+162  |  gunzip  |  4  |  compression  |  4
+163  |  galt_gin  |  4  |  Others  |  1
+164  |  fold  |  4  |  Others  |  4
+165  |  flatline  |  4  |  Others  |  1
+166  |  duy  |  4  |  Others  |  1
+167  |  conseal  |  4  |  Others  |  1
+168  |  command  |  4  |  Others  |  1
+169  |  cocksuck  |  4  |  Others  |  1
+170  |  bncex  |  4  |  Others  |  1
+171  |  biffit  |  4  |  Others  |  1
+172  |  beer  |  4  |  Others  |  1
+173  |  winnuke  |  3  |  Others  |  1
+174  |  winfreez  |  3  |  Others  |  1
+175  |  uptime  |  3  |  Others  |  3
+176  |  test_password  |  3  |  Others  |  3
+177  |  su  |  3  |  users and groups  |  3
+178  |  strings  |  3  |  Others  |  3
+179  |  ssping  |  3  |  Others  |  1
+180  |  request_password  |  3  |  Others  |  3
+181  |  pirchslap  |  3  |  Others  |  1
+182  |  pimp  |  3  |  Others  |  1
+183  |  passwd  |  3  |  users and groups  |  2
+184  |  output  |  3  |  Others  |  3
+185  |  oshare  |  3  |  Others  |  1
+186  |  onetwothreefour  |  3  |  Others  |  1
+187  |  nvram  |  3  |  Others  |  3
+188  |  ntdns  |  3  |  Others  |  1
+189  |  nicl  |  3  |  Others  |  3
+190  |  nfo  |  3  |  Others  |  3
+191  |  nestea  |  3  |  Others  |  1
+192  |  latierra  |  3  |  Others  |  1
+193  |  land  |  3  |  Others  |  1
+194  |  kox  |  3  |  Others  |  1
+195  |  killwin  |  3  |  Others  |  1
+196  |  killinetd  |  3  |  Others  |  1
+197  |  jot  |  3  |  Others  |  3
+198  |  jolt  |  3  |  Others  |  1
+199  |  jaypee  |  3  |  Others  |  1
+200  |  ircdkill  |  3  |  Others  |  1
+201  |  gewse  |  3  |  Others  |  1
+202  |  getopts  |  3  |  Others  |  3
+203  |  getconf  |  3  |  Others  |  3
+204  |  ftp  |  3  |  network  |  3
+205  |  foqerc  |  3  |  Others  |  1
+206  |  flushot  |  3  |  Others  |  1
+207  |  env  |  3  |  Others  |  1
+208  |  enable_ssh  |  3  |  Others  |  3
+209  |  dropcheck  |  3  |  Others  |  2
+210  |  download  |  3  |  Others  |  1
+211  |  doslinux  |  3  |  Others  |  1
+212  |  dosfrontpage  |  3  |  Others  |  1
+213  |  disktool  |  3  |  Others  |  3
+214  |  dig  |  3  |  Others  |  3
+215  |  df  |  3  |  Others  |  1
+216  |  defaults  |  3  |  Others  |  3
+217  |  bonk  |  3  |  Others  |  1
+218  |  bloop  |  3  |  Others  |  1
+219  |  ascendfoo  |  3  |  Others  |  1
+220  |  arp  |  3  |  network  |  3
+221  |  accton  |  3  |  Others  |  3
+222  |  yes  |  2  |  Others  |  2
+223  |  wingatecrash  |  2  |  Others  |  1
+224  |  unalias  |  2  |  basic shell  |  2
+225  |  umask  |  2  |  file permissions  |  2
+226  |  tesoiis  |  2  |  Others  |  1
+227  |  softwareupdate  |  2  |  Others  |  2
+228  |  simping  |  2  |  Others  |  1
+229  |  reboot  |  2  |  Others  |  2
+230  |  rcon  |  2  |  Others  |  1
+231  |  rape  |  2  |  Others  |  1
+232  |  php  |  2  |  programming  |  2
+233  |  nc  |  2  |  network  |  2
+234  |  mmsudos  |  2  |  Others  |  1
+235  |  misfrag  |  2  |  Others  |  1
+236  |  mailer  |  2  |  Others  |  1
+237  |  linuxicmp  |  2  |  Others  |  1
+238  |  kod  |  2  |  Others  |  1
+239  |  koc  |  2  |  Others  |  1
+240  |  iptables-save  |  2  |  network  |  1
+241  |  iptables-restore  |  2  |  network  |  2
+242  |  inetddos  |  2  |  Others  |  1
+243  |  hanson  |  2  |  Others  |  1
+244  |  fawx  |  2  |  Others  |  1
+245  |  egrep  |  2  |  regular expressions  |  2
+246  |  du  |  2  |  file examination  |  1
+247  |  dstat  |  2  |  Others  |  1
+248  |  dpkg  |  2  |  Others  |  2
+249  |  downloadIfNeed  |  2  |  Others  |  1
+250  |  dosprox  |  2  |  Others  |  1
+251  |  comatose  |  2  |  Others  |  1
+252  |  chpasswd  |  2  |  Others  |  2
+253  |  chkconfig  |  2  |  Others  |  1
+254  |  cdrecord  |  2  |  Others  |  2
+255  |  ca  |  2  |  Others  |  2
+256  |  boink  |  2  |  Others  |  1
+257  |  bash  |  2  |  Others  |  2
+258  |  \xef\xbb\xbf#!/bin/bash  |  2  |  Others  |  2
+259  |  WinAttack  |  2  |  Others  |  1
+260  |  NoPorts  |  2  |  Others  |  1
+261  |  LinuxAttack  |  2  |  Others  |  1
+262  |  FullAttack  |  2  |  Others  |  1
+263  |  BSDAttack  |  2  |  Others  |  1
+264  |  wtmp  |  1  |  Others  |  1
+265  |  who  |  1  |  Others  |  1
+266  |  wall  |  1  |  multi-user environments  |  1
+267  |  utmp  |  1  |  Others  |  1
+268  |  system_profiler  |  1  |  Others  |  1
+269  |  synfulnone  |  1  |  Others  |  1
+270  |  syndropnone  |  1  |  Others  |  1
+271  |  srcipgen  |  1  |  Others  |  1
+272  |  socklist  |  1  |  Others  |  1
+273  |  screen  |  1  |  Others  |  1
+274  |  run_proc  |  1  |  Others  |  1
+275  |  readonly  |  1  |  Others  |  1
+276  |  readlink  |  1  |  Others  |  1
+277  |  portchg  |  1  |  Others  |  1
+278  |  optionlist  |  1  |  Others  |  1
+279  |  open  |  1  |  Others  |  1
+280  |  notfound  |  1  |  Others  |  1
+281  |  nmapcheck  |  1  |  Others  |  1
+282  |  nmap  |  1  |  Others  |  1
+283  |  mkfifo  |  1  |  Others  |  1
+284  |  make  |  1  |  build management  |  1
+285  |  main  |  1  |  Others  |  1
+286  |  lspci  |  1  |  Others  |  1
+287  |  logout  |  1  |  basic shell  |  1
+288  |  locktcp  |  1  |  Others  |  1
+289  |  lastlog  |  1  |  Others  |  1
+290  |  kkill  |  1  |  Others  |  1
+291  |  kdialog  |  1  |  Others  |  1
+292  |  judge  |  1  |  Others  |  1
+293  |  isPnscanOn  |  1  |  Others  |  1
+294  |  ipcalc  |  1  |  Others  |  1
+295  |  imagemount  |  1  |  Others  |  1
+296  |  httpd  |  1  |  Others  |  1
+297  |  file  |  1  |  Others  |  1
+298  |  enable  |  1  |  Others  |  1
+299  |  downloadyam  |  1  |  Others  |  1
+300  |  dickdripchk  |  1  |  Others  |  1
+301  |  create_module  |  1  |  Others  |  1
+302  |  continue  |  1  |  Others  |  1
+303  |  cleaner  |  1  |  Others  |  1
+304  |  chgrp  |  1  |  file permissions  |  1
+305  |  check_proc  |  1  |  Others  |  1
+306  |  busyboxchmod  |  1  |  Others  |  1
+307  |  binds  |  1  |  Others  |  1
+308  |  Set  |  1  |  Others  |  1
+309  |  DONTSTOPPER  |  1  |  Others  |  1
+310  |  AppleFileServer  |  1  |  Others  |  1
+
 
 
 
@@ -296,299 +320,316 @@ No. | Linux Command                             | Frequency | Classification    
 
 No. | Linux Command                             | Frequency | Classification          | Number of Files
 ----|-------------------------------------------|-----------|-------------------------|----------------
-1   | chmod                                     | 33752     | file permissions        | 2662
-2   | cd                                        | 164637    | directories             | 2639
-3   | wget                                      | 24586     | network                 | 1926
-4   | rm                                        | 24374     | file operations         | 1886
-5   | cat                                       | 10501     | file examination        | 886
-6   | cp                                        | 1126      | file operations         | 732
-7   | ulimit                                    | 701       | miscellaneous           | 700
-8   | tftp                                      | 8752      | network                 | 683
-9   | curl                                      | 4408      | network                 | 387
-10  | echo                                      | 3533      | shell scripting         | 118
-11  | grep                                      | 661       | searching and sorting   | 72
-12  | exit                                      | 100       | basic shell             | 65
-13  | sleep                                     | 128       | miscellaneous           | 61
-14  | mkdir                                     | 167       | directories             | 52
-15  | awk                                       | 185       | Text processing         | 39
-16  | killall                                   | 382       | process management      | 38
-17  | mv                                        | 638       | file operations         | 34
-18  | cut                                       | 93        | Shell Programming       | 32
-19  | touch                                     | 445       | file operations         | 31
-20  | pwd                                       | 32        | directories             | 29
-21  | whoami                                    | 35        | users and groups        | 28
-22  | wc                                        | 44        | file examination        | 28
-23  | tar                                       | 113       | compression             | 28
-24  | date                                      | 82        | system information      | 28
-25  | ln                                        | 42        | Others                  | 27
-26  | uname                                     | 38        | system information      | 26
-27  | head                                      | 99        | file examination        | 26
-28  | busybox                                   | 675       | Others                  | 26
-29  | test                                      | 60        | Others                  | 25
-30  | service                                   | 25        | Others                  | 25
-31  | ps                                        | 105       | process management      | 23
-32  | hostname                                  | 65        | multi-user environments | 23
-33  | ftpget                                    | 263       | Others                  | 22
-34  | expr                                      | 124       | Others                  | 21
-35  | chattr                                    | 994       | Others                  | 21
-36  | read                                      | 45        | shell scripting         | 17
-37  | nohup                                     | 55        | process management      | 17
-38  | mail                                      | 19        | network                 | 16
-39  | kill                                      | 26        | process management      | 15
-40  | chown                                     | 28        | file permissions        | 15
-41  | unset                                     | 58        | shell scripting         | 14
-42  | netstat                                   | 25        | network                 | 14
-43  | export                                    | 21        | shell scripting         | 14
-44  | sort                                      | 25        | searching and sorting   | 13
-45  | sed                                       | 66        | regular expressions     | 12
-46  | id                                        | 12        | Others                  | 12
-47  | sudo                                      | 73        | users and groups        | 11
-48  | pidof                                     | 20        | Others                  | 10
-49  | perl                                      | 20        | programming             | 10
-50  | md5sum                                    | 23        | Others                  | 10
-51  | ls                                        | 18        | directories             | 10
-52  | uniq                                      | 9         | searching and sorting   | 9
-53  | xargs                                     | 94        | searching and sorting   | 8
-54  | pkill                                     | 220       | process management      | 8
-55  | history                                   | 49        | basic shell             | 8
-56  | clear                                     | 11        | basic shell             | 8
-57  | basename                                  | 15        | filesystem              | 8
-58  | tail                                      | 19        | file examination        | 7
-59  | mktemp                                    | 24        | filesystem              | 7
-60  | apt-get                                   | 13        | Others                  | 7
-61  | zmap                                      | 6         | Others                  | 6
-62  | usermod                                   | 6         | Others                  | 6
-63  | sshpass                                   | 14        | Others                  | 6
-64  | realpath                                  | 6         | Others                  | 6
-65  | niutil                                    | 36        | Others                  | 6
-66  | crontab                                   | 15        | miscellaneous           | 6
-67  | XXXXXXXX                                  | 10        | Others                  | 6
-68  | which                                     | 9         | searching and sorting   | 5
-69  | sh                                        | 12        | Shell programming       | 5
-70  | local                                     | 22        | Others                  | 5
-71  | gzip                                      | 9         | compression             | 5
-72  | gcc                                       | 8         | Others                  | 5
-73  | find                                      | 35        | searching and sorting   | 5
-74  | dirname                                   | 6         | filesystem              | 5
-75  | true                                      | 5         | Others                  | 4
-76  | tr                                        | 10        | Text processing         | 4
-77  | sw_vers                                   | 4         | Others                  | 4
-78  | stat                                      | 8         | Others                  | 4
-79  | oudsbvodbvodbvsdbvoubdovbdbvdbvpbdsvpdsvb | 16        | Others                  | 4
-80  | nproc                                     | 4         | Others                  | 4
-81  | lsof                                      | 16        | filesystem              | 4
-82  | kills                                     | 4         | Others                  | 4
-83  | gunzip                                    | 4         | compression             | 4
-84  | declare                                   | 32        | Others                  | 4
-85  | cc                                        | 8         | Others                  | 4
-86  | break                                     | 6         | Others                  | 4
-87  | trap                                      | 3         | process management      | 3
-88  | test_password                             | 3         | Others                  | 3
-89  | sysctl                                    | 3         | Others                  | 3
-90  | su                                        | 3         | users and groups        | 3
-91  | strings                                   | 3         | Others                  | 3
-92  | return                                    | 15        | Others                  | 3
-93  | request_password                          | 3         | Others                  | 3
-94  | ping                                      | 7         | network                 | 3
-95  | output                                    | 3         | Others                  | 3
-96  | osascript                                 | 9         | Others                  | 3
-97  | nvram                                     | 3         | Others                  | 3
-98  | nireport                                  | 12        | Others                  | 3
-99  | nidump                                    | 6         | Others                  | 3
-100 | nicl                                      | 3         | Others                  | 3
-101 | nice                                      | 6         | Others                  | 3
-102 | nfo                                       | 3         | Others                  | 3
-103 | let                                       | 3         | shell scripting         | 3
-104 | jot                                       | 3         | Others                  | 3
-105 | ifconfig                                  | 6         | network                 | 3
-106 | hdiutil                                   | 6         | Others                  | 3
-107 | getopts                                   | 3         | Others                  | 3
-108 | getconf                                   | 3         | Others                  | 3
-109 | ftp                                       | 3         | network                 | 3
-110 | fold                                      | 3         | Others                  | 3
-111 | enable_ssh                                | 3         | Others                  | 3
-112 | dscl                                      | 6         | Others                  | 3
-113 | disktool                                  | 3         | Others                  | 3
-114 | dig                                       | 3         | Others                  | 3
-115 | defaults                                  | 3         | Others                  | 3
-116 | chflags                                   | 6         | Others                  | 3
-117 | arp                                       | 3         | network                 | 3
-118 | accton                                    | 3         | Others                  | 3
-119 | yum                                       | 2         | Others                  | 2
-120 | usage                                     | 4         | Others                  | 2
-121 | unalias                                   | 2         | basic shell             | 2
-122 | umask                                     | 2         | file permissions        | 2
-123 | tp                                        | 20        | Others                  | 2
-124 | softwareupdate                            | 2         | Others                  | 2
-125 | set                                       | 4         | shell scripting         | 2
-126 | reboot                                    | 2         | Others                  | 2
-127 | printf                                    | 52        | shell scripting         | 2
-128 | php                                       | 2         | programming             | 2
-129 | nc                                        | 2         | network                 | 2
-130 | header                                    | 5         | Others                  | 2
-131 | dropcheck                                 | 3         | Others                  | 2
-132 | cdrecord                                  | 2         | Others                  | 2
-133 | ca                                        | 2         | Others                  | 2
-134 | wtmp                                      | 1         | Others                  | 1
-135 | winnuke                                   | 3         | Others                  | 1
-136 | wingatecrash                              | 2         | Others                  | 1
-137 | winfreez                                  | 3         | Others                  | 1
-138 | who                                       | 1         | Others                  | 1
-139 | wall                                      | 1         | multi-user environments | 1
-140 | utmp                                      | 1         | Others                  | 1
-141 | useradd                                   | 2         | Others                  | 1
-142 | uptime                                    | 1         | Others                  | 1
-143 | unlock                                    | 18        | Others                  | 1
-144 | udpflood                                  | 5         | Others                  | 1
-145 | udpdata                                   | 5         | Others                  | 1
-146 | twinge                                    | 5         | Others                  | 1
-147 | trash                                     | 5         | Others                  | 1
-148 | ton                                       | 5         | Others                  | 1
-149 | tesoiis                                   | 2         | Others                  | 1
-150 | teardrop                                  | 4         | Others                  | 1
-151 | targa                                     | 5         | Others                  | 1
-152 | system_profiler                           | 1         | Others                  | 1
-153 | synk                                      | 4         | Others                  | 1
-154 | synhose                                   | 4         | Others                  | 1
-155 | synfulnone                                | 1         | Others                  | 1
-156 | synful                                    | 4         | Others                  | 1
-157 | syndropnone                               | 1         | Others                  | 1
-158 | syndrop                                   | 4         | Others                  | 1
-159 | stuffit                                   | 5         | Others                  | 1
-160 | stream                                    | 4         | Others                  | 1
-161 | stealth                                   | 4         | Others                  | 1
-162 | ssping                                    | 3         | Others                  | 1
-163 | srcipgen                                  | 1         | Others                  | 1
-164 | sprite                                    | 4         | Others                  | 1
-165 | spiffit                                   | 4         | Others                  | 1
-166 | spender                                   | 4         | Others                  | 1
-167 | socklist                                  | 1         | Others                  | 1
-168 | smack                                     | 4         | Others                  | 1
-169 | simping                                   | 2         | Others                  | 1
-170 | sexy                                      | 5         | Others                  | 1
-171 | rwhokill                                  | 4         | Others                  | 1
-172 | run_proc                                  | 1         | Others                  | 1
-173 | ruc                                       | 4         | Others                  | 1
-174 | rpk                                       | 4         | Others                  | 1
-175 | readonly                                  | 1         | Others                  | 1
-176 | readlink                                  | 1         | Others                  | 1
-177 | rcon                                      | 2         | Others                  | 1
-178 | raped                                     | 4         | Others                  | 1
-179 | rape                                      | 2         | Others                  | 1
-180 | python                                    | 3         | Others                  | 1
-181 | portchg                                   | 1         | Others                  | 1
-182 | pong                                      | 5         | Others                  | 1
-183 | pirchslap                                 | 3         | Others                  | 1
-184 | pingtest                                  | 108       | Others                  | 1
-185 | pimp                                      | 3         | Others                  | 1
-186 | pepsi                                     | 5         | Others                  | 1
-187 | passwd                                    | 2         | users and groups        | 1
-188 | overdrop                                  | 5         | Others                  | 1
-189 | oshare                                    | 3         | Others                  | 1
-190 | orgasm                                    | 4         | Others                  | 1
-191 | optionlist                                | 1         | Others                  | 1
-192 | opentear                                  | 5         | Others                  | 1
-193 | open                                      | 1         | Others                  | 1
-194 | onetwothreefour                           | 3         | Others                  | 1
-195 | octopus                                   | 4         | Others                  | 1
-196 | ntdns                                     | 3         | Others                  | 1
-197 | notfound                                  | 1         | Others                  | 1
-198 | nmapcheck                                 | 1         | Others                  | 1
-199 | nmap                                      | 1         | Others                  | 1
-200 | newtear                                   | 4         | Others                  | 1
-201 | nestea                                    | 3         | Others                  | 1
-202 | mutilate                                  | 4         | Others                  | 1
-203 | mmsudos                                   | 2         | Others                  | 1
-204 | mkfifo                                    | 1         | Others                  | 1
-205 | misfrag                                   | 2         | Others                  | 1
-206 | md                                        | 6         | Others                  | 1
-207 | make                                      | 1         | build management        | 1
-208 | main                                      | 1         | Others                  | 1
-209 | mailer                                    | 2         | Others                  | 1
-210 | lynx                                      | 13        | network                 | 1
-211 | lspci                                     | 1         | Others                  | 1
-212 | lp                                        | 107       | Others                  | 1
-213 | locktcp                                   | 1         | Others                  | 1
-214 | linuxicmp                                 | 2         | Others                  | 1
-215 | latierra                                  | 3         | Others                  | 1
-216 | lastlog                                   | 1         | Others                  | 1
-217 | laser                                     | 5         | Others                  | 1
-218 | land                                      | 3         | Others                  | 1
-219 | kox                                       | 3         | Others                  | 1
-220 | kod                                       | 2         | Others                  | 1
-221 | koc                                       | 2         | Others                  | 1
-222 | kkill                                     | 1         | Others                  | 1
-223 | killwin                                   | 3         | Others                  | 1
-224 | killinetd                                 | 3         | Others                  | 1
-225 | kdialog                                   | 1         | Others                  | 1
-226 | judge                                     | 1         | Others                  | 1
-227 | jolt                                      | 3         | Others                  | 1
-228 | jaypee                                    | 3         | Others                  | 1
-229 | isPnscanOn                                | 1         | Others                  | 1
-230 | ircdkill                                  | 3         | Others                  | 1
-231 | iptables                                  | 4         | network                 | 1
-232 | ipcalc                                    | 1         | Others                  | 1
-233 | inetddos                                  | 2         | Others                  | 1
-234 | imagemount                                | 1         | Others                  | 1
-235 | httpd                                     | 1         | Others                  | 1
-236 | hestra                                    | 4         | Others                  | 1
-237 | hell                                      | 4         | Others                  | 1
-238 | hanson                                    | 2         | Others                  | 1
-239 | git                                       | 1         | build management        | 1
-240 | gin                                       | 5         | Others                  | 1
-241 | gewse                                     | 3         | Others                  | 1
-242 | galt_gin                                  | 4         | Others                  | 1
-243 | foqerc                                    | 3         | Others                  | 1
-244 | flushot                                   | 3         | Others                  | 1
-245 | flatline                                  | 4         | Others                  | 1
-246 | file                                      | 1         | Others                  | 1
-247 | fetch                                     | 13        | Others                  | 1
-248 | fawx                                      | 2         | Others                  | 1
-249 | errx                                      | 14        | Others                  | 1
-250 | egrep                                     | 1         | regular expressions     | 1
-251 | echok                                     | 5         | Others                  | 1
-252 | duy                                       | 4         | Others                  | 1
-253 | du                                        | 2         | file examination        | 1
-254 | downloadyam                               | 1         | Others                  | 1
-255 | downloadIfNeed                            | 2         | Others                  | 1
-256 | download                                  | 3         | Others                  | 1
-257 | dosprox                                   | 2         | Others                  | 1
-258 | doslinux                                  | 3         | Others                  | 1
-259 | dosfrontpage                              | 3         | Others                  | 1
-260 | dobin                                     | 8         | Others                  | 1
-261 | dickdripchk                               | 1         | Others                  | 1
-262 | create_module                             | 1         | Others                  | 1
-263 | continue                                  | 1         | Others                  | 1
-264 | conseal                                   | 4         | Others                  | 1
-265 | command                                   | 4         | Others                  | 1
-266 | comatose                                  | 2         | Others                  | 1
-267 | coke                                      | 5         | Others                  | 1
-268 | cocksuck                                  | 4         | Others                  | 1
-269 | cleaner                                   | 1         | Others                  | 1
-270 | chkconfig                                 | 2         | Others                  | 1
-271 | chgrp                                     | 1         | file permissions        | 1
-272 | check_proc                                | 1         | Others                  | 1
-273 | busyboxchmod                              | 1         | Others                  | 1
-274 | bonk                                      | 3         | Others                  | 1
-275 | boink                                     | 2         | Others                  | 1
-276 | bncex                                     | 4         | Others                  | 1
-277 | bloop                                     | 3         | Others                  | 1
-278 | binds                                     | 1         | Others                  | 1
-279 | biffit                                    | 4         | Others                  | 1
-280 | beer                                      | 4         | Others                  | 1
-281 | bash                                      | 1         | Others                  | 1
-282 | ascendfoo                                 | 3         | Others                  | 1
-283 | \xef\xbb\xbf#!/bin/bash                   | 1         | Others                  | 1
-284 | WinAttack                                 | 2         | Others                  | 1
-285 | Set                                       | 1         | Others                  | 1
-286 | NoPorts                                   | 2         | Others                  | 1
-287 | LinuxAttack                               | 2         | Others                  | 1
-288 | GET                                       | 13        | Others                  | 1
-289 | FullAttack                                | 2         | Others                  | 1
-290 | DONTSTOPPER                               | 1         | Others                  | 1
-291 | BSDAttack                                 | 2         | Others                  | 1
-292 | AppleFileServer                           | 1         | Others                  | 1
-293 | ADMdnsfuckr                               | 5         | Others                  | 1
+1  |  chmod  |  37389  |  file permissions  |  3024
+2  |  cd  |  178691  |  directories  |  2884
+3  |  wget  |  27037  |  network  |  2191
+4  |  rm  |  26805  |  file operations  |  2146
+5  |  cat  |  11723  |  file examination  |  989
+6  |  cp  |  1244  |  file operations  |  827
+7  |  ulimit  |  797  |  miscellaneous  |  796
+8  |  tftp  |  9943  |  network  |  777
+9  |  curl  |  4657  |  network  |  416
+10  |  echo  |  4447  |  shell scripting  |  169
+11  |  sleep  |  330  |  miscellaneous  |  120
+12  |  exit  |  142  |  basic shell  |  102
+13  |  grep  |  717  |  searching and sorting  |  87
+14  |  mkdir  |  185  |  directories  |  65
+15  |  busybox  |  1011  |  Others  |  49
+16  |  killall  |  412  |  process management  |  44
+17  |  awk  |  221  |  Text processing  |  44
+18  |  mv  |  652  |  file operations  |  43
+19  |  tar  |  130  |  compression  |  40
+20  |  service  |  88  |  Others  |  33
+21  |  cut  |  93  |  Shell Programming  |  32
+22  |  touch  |  445  |  file operations  |  31
+23  |  ln  |  46  |  Others  |  31
+24  |  whoami  |  36  |  users and groups  |  29
+25  |  wc  |  45  |  file examination  |  29
+26  |  test  |  64  |  Others  |  29
+27  |  pwd  |  32  |  directories  |  29
+28  |  date  |  82  |  system information  |  28
+29  |  uname  |  39  |  system information  |  27
+30  |  read  |  94  |  shell scripting  |  27
+31  |  head  |  100  |  file examination  |  27
+32  |  ftpget  |  320  |  Others  |  26
+33  |  ps  |  106  |  process management  |  24
+34  |  hostname  |  65  |  multi-user environments  |  23
+35  |  clear  |  49  |  basic shell  |  22
+36  |  nohup  |  64  |  process management  |  21
+37  |  expr  |  124  |  Others  |  21
+38  |  chattr  |  994  |  Others  |  21
+39  |  sed  |  126  |  regular expressions  |  20
+40  |  perl  |  40  |  programming  |  20
+41  |  chown  |  33  |  file permissions  |  19
+42  |  sort  |  29  |  searching and sorting  |  17
+43  |  sh  |  29  |  Shell programming  |  16
+44  |  netstat  |  29  |  network  |  16
+45  |  mail  |  19  |  network  |  16
+46  |  kill  |  28  |  process management  |  16
+47  |  id  |  19  |  Others  |  15
+48  |  unset  |  58  |  shell scripting  |  14
+49  |  history  |  67  |  basic shell  |  14
+50  |  export  |  21  |  shell scripting  |  14
+51  |  sudo  |  81  |  users and groups  |  13
+52  |  uniq  |  12  |  searching and sorting  |  12
+53  |  apt-get  |  62  |  Others  |  12
+54  |  pkill  |  229  |  process management  |  11
+55  |  pidof  |  20  |  Others  |  10
+56  |  md5sum  |  23  |  Others  |  10
+57  |  ls  |  18  |  directories  |  10
+58  |  tail  |  25  |  file examination  |  9
+59  |  xargs  |  94  |  searching and sorting  |  8
+60  |  basename  |  15  |  filesystem  |  8
+61  |  printf  |  133  |  shell scripting  |  7
+62  |  mktemp  |  24  |  filesystem  |  7
+63  |  crontab  |  16  |  miscellaneous  |  7
+64  |  zmap  |  6  |  Others  |  6
+65  |  usermod  |  6  |  Others  |  6
+66  |  sshpass  |  14  |  Others  |  6
+67  |  realpath  |  6  |  Others  |  6
+68  |  niutil  |  36  |  Others  |  6
+69  |  ifconfig  |  9  |  network  |  6
+70  |  XXXXXXXX  |  10  |  Others  |  6
+71  |  which  |  9  |  searching and sorting  |  5
+72  |  tr  |  11  |  Text processing  |  5
+73  |  sysctl  |  5  |  Others  |  5
+74  |  python  |  7  |  Others  |  5
+75  |  oudsbvodbvodbvsdbvoubdovbdbvdbvpbdsvpdsvb  |  20  |  Others  |  5
+76  |  local  |  22  |  Others  |  5
+77  |  let  |  7  |  shell scripting  |  5
+78  |  gzip  |  9  |  compression  |  5
+79  |  git  |  7  |  build management  |  5
+80  |  gcc  |  8  |  Others  |  5
+81  |  find  |  35  |  searching and sorting  |  5
+82  |  dirname  |  6  |  filesystem  |  5
+83  |  useradd  |  5  |  Others  |  4
+84  |  true  |  5  |  Others  |  4
+85  |  trap  |  4  |  process management  |  4
+86  |  sw_vers  |  4  |  Others  |  4
+87  |  stat  |  8  |  Others  |  4
+88  |  nproc  |  4  |  Others  |  4
+89  |  lsof  |  16  |  filesystem  |  4
+90  |  kills  |  4  |  Others  |  4
+91  |  iptables  |  75  |  network  |  4
+92  |  gunzip  |  4  |  compression  |  4
+93  |  fuser  |  14  |  Others  |  4
+94  |  fold  |  4  |  Others  |  4
+95  |  fetch  |  19  |  Others  |  4
+96  |  exec  |  5  |  Others  |  4
+97  |  declare  |  32  |  Others  |  4
+98  |  cc  |  8  |  Others  |  4
+99  |  break  |  6  |  Others  |  4
+100  |  yum  |  7  |  Others  |  3
+101  |  uptime  |  3  |  Others  |  3
+102  |  unzip  |  4  |  compression  |  3
+103  |  test_password  |  3  |  Others  |  3
+104  |  su  |  3  |  users and groups  |  3
+105  |  strings  |  3  |  Others  |  3
+106  |  return  |  15  |  Others  |  3
+107  |  request_password  |  3  |  Others  |  3
+108  |  ping  |  7  |  network  |  3
+109  |  output  |  3  |  Others  |  3
+110  |  osascript  |  9  |  Others  |  3
+111  |  nvram  |  3  |  Others  |  3
+112  |  nireport  |  12  |  Others  |  3
+113  |  nidump  |  6  |  Others  |  3
+114  |  nicl  |  3  |  Others  |  3
+115  |  nice  |  6  |  Others  |  3
+116  |  nfo  |  3  |  Others  |  3
+117  |  jot  |  3  |  Others  |  3
+118  |  hdiutil  |  6  |  Others  |  3
+119  |  getopts  |  3  |  Others  |  3
+120  |  getconf  |  3  |  Others  |  3
+121  |  ftp  |  3  |  network  |  3
+122  |  enable_ssh  |  3  |  Others  |  3
+123  |  dscl  |  6  |  Others  |  3
+124  |  disktool  |  3  |  Others  |  3
+125  |  dig  |  3  |  Others  |  3
+126  |  defaults  |  3  |  Others  |  3
+127  |  chflags  |  6  |  Others  |  3
+128  |  arp  |  3  |  network  |  3
+129  |  apt-key  |  5  |  Others  |  3
+130  |  accton  |  3  |  Others  |  3
+131  |  yes  |  2  |  Others  |  2
+132  |  usage  |  4  |  Others  |  2
+133  |  unalias  |  2  |  basic shell  |  2
+134  |  umask  |  2  |  file permissions  |  2
+135  |  tp  |  20  |  Others  |  2
+136  |  softwareupdate  |  2  |  Others  |  2
+137  |  set  |  4  |  shell scripting  |  2
+138  |  reboot  |  2  |  Others  |  2
+139  |  php  |  2  |  programming  |  2
+140  |  passwd  |  3  |  users and groups  |  2
+141  |  nc  |  2  |  network  |  2
+142  |  iptables-restore  |  2  |  network  |  2
+143  |  header  |  5  |  Others  |  2
+144  |  free  |  12  |  Others  |  2
+145  |  egrep  |  2  |  regular expressions  |  2
+146  |  dropcheck  |  3  |  Others  |  2
+147  |  dpkg  |  2  |  Others  |  2
+148  |  chpasswd  |  2  |  Others  |  2
+149  |  cdrecord  |  2  |  Others  |  2
+150  |  ca  |  2  |  Others  |  2
+151  |  bash  |  2  |  Others  |  2
+152  |  \xef\xbb\xbf#!/bin/bash  |  2  |  Others  |  2
+153  |  wtmp  |  1  |  Others  |  1
+154  |  winnuke  |  3  |  Others  |  1
+155  |  wingatecrash  |  2  |  Others  |  1
+156  |  winfreez  |  3  |  Others  |  1
+157  |  who  |  1  |  Others  |  1
+158  |  wall  |  1  |  multi-user environments  |  1
+159  |  utmp  |  1  |  Others  |  1
+160  |  unlock  |  18  |  Others  |  1
+161  |  udpflood  |  5  |  Others  |  1
+162  |  udpdata  |  5  |  Others  |  1
+163  |  twinge  |  5  |  Others  |  1
+164  |  trash  |  5  |  Others  |  1
+165  |  ton  |  5  |  Others  |  1
+166  |  tesoiis  |  2  |  Others  |  1
+167  |  tee  |  49  |  Others  |  1
+168  |  teardrop  |  4  |  Others  |  1
+169  |  targa  |  5  |  Others  |  1
+170  |  system_profiler  |  1  |  Others  |  1
+171  |  synk  |  4  |  Others  |  1
+172  |  synhose  |  4  |  Others  |  1
+173  |  synfulnone  |  1  |  Others  |  1
+174  |  synful  |  4  |  Others  |  1
+175  |  syndropnone  |  1  |  Others  |  1
+176  |  syndrop  |  4  |  Others  |  1
+177  |  stuffit  |  5  |  Others  |  1
+178  |  stream  |  4  |  Others  |  1
+179  |  stealth  |  4  |  Others  |  1
+180  |  ssping  |  3  |  Others  |  1
+181  |  srcipgen  |  1  |  Others  |  1
+182  |  sprite  |  4  |  Others  |  1
+183  |  spiffit  |  4  |  Others  |  1
+184  |  spender  |  4  |  Others  |  1
+185  |  socklist  |  1  |  Others  |  1
+186  |  smack  |  4  |  Others  |  1
+187  |  simping  |  2  |  Others  |  1
+188  |  sexy  |  5  |  Others  |  1
+189  |  screen  |  1  |  Others  |  1
+190  |  rwhokill  |  4  |  Others  |  1
+191  |  run_proc  |  1  |  Others  |  1
+192  |  ruc  |  4  |  Others  |  1
+193  |  rpk  |  4  |  Others  |  1
+194  |  readonly  |  1  |  Others  |  1
+195  |  readlink  |  1  |  Others  |  1
+196  |  rcon  |  2  |  Others  |  1
+197  |  raped  |  4  |  Others  |  1
+198  |  rape  |  2  |  Others  |  1
+199  |  portchg  |  1  |  Others  |  1
+200  |  pong  |  5  |  Others  |  1
+201  |  pirchslap  |  3  |  Others  |  1
+202  |  pingtest  |  108  |  Others  |  1
+203  |  pimp  |  3  |  Others  |  1
+204  |  pepsi  |  5  |  Others  |  1
+205  |  overdrop  |  5  |  Others  |  1
+206  |  oshare  |  3  |  Others  |  1
+207  |  orgasm  |  4  |  Others  |  1
+208  |  optionlist  |  1  |  Others  |  1
+209  |  opentear  |  5  |  Others  |  1
+210  |  open  |  1  |  Others  |  1
+211  |  onetwothreefour  |  3  |  Others  |  1
+212  |  octopus  |  4  |  Others  |  1
+213  |  ntdns  |  3  |  Others  |  1
+214  |  notfound  |  1  |  Others  |  1
+215  |  nmapcheck  |  1  |  Others  |  1
+216  |  nmap  |  1  |  Others  |  1
+217  |  newtear  |  4  |  Others  |  1
+218  |  nestea  |  3  |  Others  |  1
+219  |  mutilate  |  4  |  Others  |  1
+220  |  mmsudos  |  2  |  Others  |  1
+221  |  mkfifo  |  1  |  Others  |  1
+222  |  misfrag  |  2  |  Others  |  1
+223  |  md  |  6  |  Others  |  1
+224  |  make  |  1  |  build management  |  1
+225  |  main  |  1  |  Others  |  1
+226  |  mailer  |  2  |  Others  |  1
+227  |  lynx  |  13  |  network  |  1
+228  |  lspci  |  1  |  Others  |  1
+229  |  lp  |  107  |  Others  |  1
+230  |  logout  |  1  |  basic shell  |  1
+231  |  locktcp  |  1  |  Others  |  1
+232  |  linuxicmp  |  2  |  Others  |  1
+233  |  latierra  |  3  |  Others  |  1
+234  |  lastlog  |  1  |  Others  |  1
+235  |  laser  |  5  |  Others  |  1
+236  |  land  |  3  |  Others  |  1
+237  |  kox  |  3  |  Others  |  1
+238  |  kod  |  2  |  Others  |  1
+239  |  koc  |  2  |  Others  |  1
+240  |  kkill  |  1  |  Others  |  1
+241  |  killwin  |  3  |  Others  |  1
+242  |  killinetd  |  3  |  Others  |  1
+243  |  kdialog  |  1  |  Others  |  1
+244  |  judge  |  1  |  Others  |  1
+245  |  jolt  |  3  |  Others  |  1
+246  |  jaypee  |  3  |  Others  |  1
+247  |  isPnscanOn  |  1  |  Others  |  1
+248  |  ircdkill  |  3  |  Others  |  1
+249  |  iptables-save  |  2  |  network  |  1
+250  |  ipcalc  |  1  |  Others  |  1
+251  |  inetddos  |  2  |  Others  |  1
+252  |  imagemount  |  1  |  Others  |  1
+253  |  httpd  |  1  |  Others  |  1
+254  |  hestra  |  4  |  Others  |  1
+255  |  hell  |  4  |  Others  |  1
+256  |  hanson  |  2  |  Others  |  1
+257  |  gin  |  5  |  Others  |  1
+258  |  gewse  |  3  |  Others  |  1
+259  |  galt_gin  |  4  |  Others  |  1
+260  |  foqerc  |  3  |  Others  |  1
+261  |  flushot  |  3  |  Others  |  1
+262  |  flatline  |  4  |  Others  |  1
+263  |  file  |  1  |  Others  |  1
+264  |  fawx  |  2  |  Others  |  1
+265  |  errx  |  14  |  Others  |  1
+266  |  env  |  3  |  Others  |  1
+267  |  enable  |  1  |  Others  |  1
+268  |  echok  |  5  |  Others  |  1
+269  |  duy  |  4  |  Others  |  1
+270  |  du  |  2  |  file examination  |  1
+271  |  dstat  |  2  |  Others  |  1
+272  |  downloadyam  |  1  |  Others  |  1
+273  |  downloadIfNeed  |  2  |  Others  |  1
+274  |  download  |  3  |  Others  |  1
+275  |  dosprox  |  2  |  Others  |  1
+276  |  doslinux  |  3  |  Others  |  1
+277  |  dosfrontpage  |  3  |  Others  |  1
+278  |  dobin  |  8  |  Others  |  1
+279  |  dickdripchk  |  1  |  Others  |  1
+280  |  df  |  3  |  Others  |  1
+281  |  create_module  |  1  |  Others  |  1
+282  |  continue  |  1  |  Others  |  1
+283  |  conseal  |  4  |  Others  |  1
+284  |  command  |  4  |  Others  |  1
+285  |  comatose  |  2  |  Others  |  1
+286  |  coke  |  5  |  Others  |  1
+287  |  cocksuck  |  4  |  Others  |  1
+288  |  cleaner  |  1  |  Others  |  1
+289  |  chkconfig  |  2  |  Others  |  1
+290  |  chgrp  |  1  |  file permissions  |  1
+291  |  check_proc  |  1  |  Others  |  1
+292  |  busyboxchmod  |  1  |  Others  |  1
+293  |  bonk  |  3  |  Others  |  1
+294  |  boink  |  2  |  Others  |  1
+295  |  bncex  |  4  |  Others  |  1
+296  |  bloop  |  3  |  Others  |  1
+297  |  binds  |  1  |  Others  |  1
+298  |  biffit  |  4  |  Others  |  1
+299  |  beer  |  4  |  Others  |  1
+300  |  ascendfoo  |  3  |  Others  |  1
+301  |  WinAttack  |  2  |  Others  |  1
+302  |  Set  |  1  |  Others  |  1
+303  |  NoPorts  |  2  |  Others  |  1
+304  |  LinuxAttack  |  2  |  Others  |  1
+305  |  GET  |  13  |  Others  |  1
+306  |  FullAttack  |  2  |  Others  |  1
+307  |  DONTSTOPPER  |  1  |  Others  |  1
+308  |  BSDAttack  |  2  |  Others  |  1
+309  |  AppleFileServer  |  1  |  Others  |  1
+310  |  ADMdnsfuckr  |  5  |  Others  |  1
 
 
 ### How many commands classification used in our project

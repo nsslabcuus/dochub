@@ -10,6 +10,10 @@ This repo is a private repo. Please let me know if you can't access to this addr
 git clone git@github.com:guozetang/IoT-Malware-Dataset-App.git dataset
 ```
 
+The dataset include:
+* [Old Dataset](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/bashData/old_files_md5_record.json)
+* [New Files from Github Repo](https://github.com/guozetang/IoT-Malware-Dataset-App/blob/master/bashData/new_files_md5_record.json)
+
 **Normal Dataset**
 
 ```bash
